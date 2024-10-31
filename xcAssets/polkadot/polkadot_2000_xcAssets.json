@@ -141,7 +141,7 @@
         "paraID": 1000,
         "relayChain": "polkadot",
         "nativeChainID": "statemint",
-        "symbol": "WETH",
+        "symbol": "WETHah",
         "decimals": 18,
         "interiorType": "x3",
         "xcmV1Standardized": [

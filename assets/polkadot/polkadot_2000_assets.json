@@ -264,8 +264,8 @@
         "asset": {
             "ForeignAsset": "6"
         },
-        "name": "Wrapped Ether",
-        "symbol": "WETH",
+        "name": "Wrapped Ether (Asset Hub)",
+        "symbol": "WETHah",
         "decimals": 18,
         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":100}]"
     },
