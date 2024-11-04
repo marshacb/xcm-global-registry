@@ -146,9 +146,4 @@ We are looking for Polkadot/Kusama treasury and parachain teams to support this 
 
 **To indicate your interest, please submit a PR:**
 
-1. Adding your name/email and any ideas you have on this project
-2. if you wish to contribute significantly more than 25 hours/quarter (or significantly less)
-3. if you do or do not wish to be paid, mark "non-paid volunteer".  All paid volunteers will be compensated at 100 USDT.
-
-* Michael Chung <michael@colorfulnotion.com> - Initial Primary Architect and Implementer
-* Sourabh Niyogi <sourabh@colorfulnotion.com> - Initial Secondary Implementer/Coordinator
+**NOTE** This repo is now in Maintenance mode; if you interested in taking over this project, please send us an email at info@colorfulnotion.com
