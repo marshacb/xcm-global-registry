@@ -145,7 +145,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2046,
                 "id": "darwinia",
-                "assetCnt": "1",
+                "assetCnt": "5",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/polkadot/polkadot_2046_assets.json"
             },
             {
@@ -482,6 +482,13 @@
                 "id": "origintrail-parachain",
                 "xcAssetCnt": "1",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcAssets/polkadot/polkadot_2043_xcAssets.json"
+            },
+            {
+                "relayChain": "polkadot",
+                "paraID": 2046,
+                "id": "darwinia",
+                "xcAssetCnt": "3",
+                "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcAssets/polkadot/polkadot_2046_xcAssets.json"
             },
             {
                 "relayChain": "polkadot",

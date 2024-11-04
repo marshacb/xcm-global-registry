@@ -1,6 +1,45 @@
 [
     {
         "asset": {
+            "Token": "1026"
+        },
+        "name": "Darwinia Commitment Token",
+        "symbol": "KTON",
+        "decimals": 18,
+        "currencyID": "1026"
+    },
+    {
+        "asset": {
+            "Token": "1027"
+        },
+        "name": "Tether USD",
+        "symbol": "ahUSDT",
+        "decimals": 6,
+        "currencyID": "1027",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1984}]"
+    },
+    {
+        "asset": {
+            "Token": "1028"
+        },
+        "name": "PINK",
+        "symbol": "ahPINK",
+        "decimals": 10,
+        "currencyID": "1028",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":23}]"
+    },
+    {
+        "asset": {
+            "Token": "1029"
+        },
+        "name": "DOT",
+        "symbol": "DOT",
+        "decimals": 10,
+        "currencyID": "1029",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},\"here\"]"
+    },
+    {
+        "asset": {
             "Token": "RING"
         },
         "name": "RING",
