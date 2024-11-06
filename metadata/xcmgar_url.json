@@ -11,7 +11,7 @@
             {
                 "relayChain": "polkadot",
                 "paraID": 1000,
-                "id": "statemint",
+                "id": "asset-hub-polkadot",
                 "assetCnt": "33",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/polkadot/polkadot_1000_assets.json"
             },
@@ -181,7 +181,7 @@
             {
                 "relayChain": "kusama",
                 "paraID": 1000,
-                "id": "statemine",
+                "id": "asset-hub-kusama",
                 "assetCnt": "161",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/kusama/kusama_1000_assets.json"
             },

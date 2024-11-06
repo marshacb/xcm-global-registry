@@ -13,7 +13,7 @@ const HydraParser = require("./chainParsers/hydra");
 const ListenParser = require("./chainParsers/listen");
 const CalamariParser = require("./chainParsers/calamari");
 const ShadowParser = require("./chainParsers/shadow");
-const StatemintParser = require("./chainParsers/statemint")
+const AssetHubParser = require("./chainParsers/assethub")
 const BifrostParser = require("./chainParsers/bifrost")
 const PhalaParser = require("./chainParsers/phala")
 const InterlayParser = require("./chainParsers/interlay")
@@ -243,7 +243,7 @@ module.exports = class XCMGlobalAssetRegistryManager {
                 if (a.xcmInteriorKey == undefined && this.getXcmInteriorkeyByParaIDAndSymbol(relayChain, paraIDSource, localAsset.symbol) && !knownBlacklist.includes(localAsset.symbol.toUpperCase())){
                     let inferredInteriorykey = this.getXcmInteriorkeyByParaIDAndSymbol(relayChain, paraIDSource, localAsset.symbol)
                     if (inferredInteriorykey){
-                        //must invalidate statemine/statemint ass
+                        //must invalidate asset-hub-polkadot/asset-hub-kusama ass
                         if (paraIDSource != 1000 || (paraIDSource == 1000 && inferredInteriorykey.includes(`{"generalIndex":${localAsset.currencyID}}`))){
                             a.xcmInteriorKey = inferredInteriorykey
                             a.inferred = true
@@ -406,18 +406,18 @@ module.exports = class XCMGlobalAssetRegistryManager {
     isMatched matches an input to a parachain using
     {identifier, identifier, fullchainkey} to a specific parser group:
 
-    identifier(i.e statemine, moonriver),
+    identifier(i.e asset-hub-kusama, moonriver),
     chainkey(i.e kusama-1000, kusama-2023),
-    fullchainkey(i.e kusama-1000|statemine, kusama-2023|moonriver)
+    fullchainkey(i.e kusama-1000|asset-hub-kusama, kusama-2023|moonriver)
 
     For ex, all the following are true:
-     isMatched('kusama-1000',['kusama-1000|statemine'])
+     isMatched('kusama-1000',['kusama-1000|asset-hub-kusama'])
      isMatched('acala',['kusama-1000|acala'])
      isMatched('kusama-1000|moonriver',['kusama-1000|moonriver'])
 
      parachain team are encouraged to use chainfilter like 'relaychain-paraID|networkIdentifier' to take advantage of existing parser
     */
-    isMatched(chainkey, chainFilters = ['kusama-1000|statemine', 'kusama-2023|moonriver']) {
+    isMatched(chainkey, chainFilters = ['kusama-1000|asset-hub-kusama', 'kusama-2023|moonriver']) {
         let i = chainFilters.findIndex(e => e.includes(chainkey))
         return chainFilters.findIndex(e => e.includes(chainkey)) != -1
     }
@@ -434,8 +434,8 @@ module.exports = class XCMGlobalAssetRegistryManager {
             chainParser = new AcalaParser(api, manager)
         } else if (this.isMatched(chainkey, ['polkadot-2004|moonbeam', 'kusama-2023|moonriver', 'moonbase-1000|alpha', 'moonbase-888|beta'])) {
             chainParser = new MoonbeamParser(api, manager)
-        } else if (this.isMatched(chainkey, ['polkadot-1000|statemint', 'kusama-1000|statemine'])) {
-            chainParser = new StatemintParser(api, manager)
+        } else if (this.isMatched(chainkey, ['polkadot-1000|asset-hub-polkadot', 'kusama-1000|asset-hub-kusama'])) {
+            chainParser = new AssetHubParser(api, manager)
         } else if (this.isMatched(chainkey, ['polkadot-2030|bifrost', 'kusama-2001|bifrost'])) {
             chainParser = new BifrostParser(api, manager)
         } else if (this.isMatched(chainkey, ['polkadot-2034|hydra', 'kusama-2090|basilisk'])) {

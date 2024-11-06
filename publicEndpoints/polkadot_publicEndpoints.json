@@ -19,16 +19,13 @@
   },
   "polkadot-1000": {
     "chainkey": "polkadot-1000",
-    "name": "Statemint",
-    "id": "statemint",
+    "name": "PolkadotAssetHub",
+    "id": "asset-hub-polkadot",
     "paraID": 1000,
     "WSEndpoints": [
-      "wss://statemint-rpc.polkadot.io",
-      "wss://statemint.api.onfinality.io/public-ws",
-      "wss://statemint-rpc.dwellir.com",
-      "wss://statemint-rpc-tn.dwellir.com",
-      "wss://public-rpc.pinknode.io/statemint",
-      "wss://statemint.public.curie.radiumblock.co/ws"
+      "wss://asset-hub-polkadot-rpc.dwellir.com",
+      "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+      "wss://polkadot-asset-hub-rpc.polkadot.io"
     ],
     "relaychain": "polkadot"
   },

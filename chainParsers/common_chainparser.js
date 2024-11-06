@@ -26,7 +26,7 @@ module.exports = class ChainParser {
         this.debugLevel = debugLevel
     }
 
-    isMatched(chainkey, chainFilters = ['kusama-1000|statemine', 'kusama-2023|moonriver']) {
+    isMatched(chainkey, chainFilters = ['kusama-1000|asset-hub-kusama', 'kusama-2023|moonriver']) {
         let i = chainFilters.findIndex(e => e.includes(chainkey))
         return chainFilters.findIndex(e => e.includes(chainkey)) != -1
     }
@@ -161,7 +161,7 @@ module.exports = class ChainParser {
     'polkadot-2006|astar', 'kusama-2007|shiden',
     'polkadot-2004|moonbeam', 'kusama-2023|moonriver',
     'polkadot-2012|parallel', 'kusama-2085|heiko',
-    'polkadot-1000|statemint', 'kusama-1000|statemine',
+    'polkadot-1000|asset-hub-polkadot', 'kusama-1000|asset-hub-kusama',
     'polkadot-2035|phala', 'kusama-2004|khala',
     'polkadot-2034|hydra', 'kusama-2090|basilisk',
     'kusama-2084|calamari',

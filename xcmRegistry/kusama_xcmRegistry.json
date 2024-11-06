@@ -53,7 +53,7 @@
     "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":8}]": {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "RMRK",
         "decimals": 10,
         "interiorType": "x3",
@@ -113,7 +113,7 @@
     "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1984}]": {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "USDT",
         "decimals": 6,
         "interiorType": "x3",
@@ -188,7 +188,7 @@
     "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":16}]": {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "ARIS",
         "decimals": 8,
         "interiorType": "x3",
@@ -1626,7 +1626,7 @@
     "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":223}]": {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "BILL",
         "decimals": 8,
         "interiorType": "x3",
