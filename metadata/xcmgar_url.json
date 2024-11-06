@@ -602,7 +602,7 @@
     "xcmRegistry": [
         {
             "relayChain": "kusama",
-            "registryCnt": "64",
+            "registryCnt": "65",
             "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcmRegistry/kusama_xcmRegistry.json"
         },
         {
