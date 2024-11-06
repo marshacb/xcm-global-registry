@@ -5,13 +5,13 @@ const ChainParser = require("./common_chainparser");
 Fork this template to create new custom parser
 
 Support chains
-polkadot-1000|statemint
-kusama-1000|statemine
+polkadot-1000|asset-hub-polkadot
+kusama-1000|asset-hub-kusama
 */
 
-module.exports = class StatemintParser extends ChainParser {
+module.exports = class AssetHubParser extends ChainParser {
 
-    parserName = 'Statemint';
+    parserName = 'AssetHub';
 
     //change [garPallet:garPallet] to the location where the asset registry is located.  ex: [assets:metadata]
     garPallet = 'assets';
@@ -42,12 +42,12 @@ module.exports = class StatemintParser extends ChainParser {
     //step 1: parse gar pallet, storage for parachain's asset registry
     async fetchGar(chainkey) {
         // implement your gar parsing function here.
-        await this.processStatemintGar(chainkey)
+        await this.processAssethubGar(chainkey)
     }
 
     //step 2: parse xcGar pallet, storage for parachain's xc asset registry
     async fetchXcGar(chainkey) {
-        //statemint does not expose xc registry
+        //AssetHub does not expose xc registry
         if (!this.isXcRegistryAvailable) {
             // skip if xcGar parser is unavailable
             console.log(`[${chainkey}] ${this.parserName} xcGar NOT IMPLEMENTED - SKIP`)
@@ -58,14 +58,14 @@ module.exports = class StatemintParser extends ChainParser {
     //step 3: Optional augmentation by providing (a) a list xcm extrinsicIDs or (b) known xcmInteriorKeys-assets mapping
     async fetchAugments(chainkey) {
         //[Optional A] implement your augment parsing function here.
-        await this.processStatemintAugment(chainkey)
+        await this.processAssetHubAugment(chainkey)
         //[Optional B ] implement your manual registry here.
-        await this.processStatemintManualRegistry(chainkey)
+        await this.processAssethubManualRegistry(chainkey)
 
     }
 
-    // Implement statemint gar parsing function here
-    async processStatemintGar(chainkey) {
+    // Implement assetHub gar parsing function here
+    async processAssethubGar(chainkey) {
         console.log(`[${chainkey}] ${this.parserName} custom GAR parser`)
         //step 0: use fetchQuery to retrieve gar registry at the location [assets:garStorage]
         let a = await super.fetchQuery(chainkey, this.garPallet, this.garStorage, 'GAR')
@@ -80,13 +80,13 @@ module.exports = class StatemintParser extends ChainParser {
         }
     }
 
-    // Implement statemint xcGar parsing function here
-    async processStatemintXcGar(chainkey) {
+    // Implement assethub xcGar parsing function here
+    async processAssetHubXcGar(chainkey) {
         //TODO
     }
 
-    // Implement Statemint manual registry function here
-    async processStatemintManualRegistry(chainkey) {
+    // Implement assethub manual registry function here
+    async processAssethubManualRegistry(chainkey) {
         console.log(`[${chainkey}] ${this.parserName} manual`)
         let pieces = chainkey.split('-')
         let relayChain = pieces[0]
@@ -95,7 +95,7 @@ module.exports = class StatemintParser extends ChainParser {
         this.processManualRegistry(chainkey, manualRecs)
     }
 
-    async processStatemintAugment(chainkey) {
+    async processAssetHubAugment(chainkey) {
         console.log(`[${chainkey}] ${this.parserName} custom augmentation`)
         let pieces = chainkey.split('-')
         let relayChain = pieces[0]

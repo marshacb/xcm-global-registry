@@ -29,7 +29,7 @@
     {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "USDT",
         "decimals": 6,
         "interiorType": "x3",
@@ -74,7 +74,7 @@
     {
         "paraID": 1000,
         "relayChain": "kusama",
-        "nativeChainID": "statemine",
+        "nativeChainID": "asset-hub-kusama",
         "symbol": "RMRK",
         "decimals": 10,
         "interiorType": "x3",

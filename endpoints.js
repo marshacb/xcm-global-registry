@@ -25,7 +25,7 @@ const polkaholicKnownPublicEndpoints = {
         "relaychain": "kusama"
     },
     "polkadot-1000": {
-        "id": "statemint",
+        "id": "asset-hub-polkadot",
         "chainID": 1000,
         "paraID": 1000,
         "relaychain": "polkadot"
@@ -157,7 +157,7 @@ const polkaholicKnownPublicEndpoints = {
         "relaychain": "polkadot"
     },
     "kusama-1000": {
-        "id": "statemine",
+        "id": "asset-hub-kusama",
         "chainID": 21000,
         "paraID": 21000,
         "relaychain": "kusama"
@@ -751,17 +751,16 @@ const prodParasPolkadot = [{
 ];
 
 const prodParasPolkadotCommon = [{
-        info: 'statemint',
+        info: 'PolkadotAssetHub',
         paraId: 1000,
-        text: 'Statemint',
+        text: 'asset-hub-polkadot',
         teleport: [-1],
         providers: {
-            Parity: 'wss://statemint-rpc.polkadot.io',
-            OnFinality: 'wss://statemint.api.onfinality.io/public-ws',
-            Dwellir: 'wss://statemint-rpc.dwellir.com',
-            'Dwellir Tunisia': 'wss://statemint-rpc-tn.dwellir.com',
-            Pinknode: 'wss://public-rpc.pinknode.io/statemint',
-            RadiumBlock: 'wss://statemint.public.curie.radiumblock.co/ws'
+            Parity: 'wss://polkadot-asset-hub-rpc.polkadot.io',
+            Dwellir: 'wss://asset-hub-polkadot-rpc.dwellir.com',
+            IBP1: 'wss://sys.ibp.network/asset-hub-polkadot',
+            IBP2: 'wss://asset-hub-polkadot.dotters.network',
+            LuckyFriday: 'wss://rpc-asset-hub-polkadot.luckyfriday.io',
         }
     },
     {
@@ -1329,16 +1328,14 @@ const prodParasKusama = [{
 ];
 
 const prodParasKusamaCommon = [{
-        info: 'statemine',
+        info: 'KusamaAssetHub',
         paraId: 1000,
-        text: 'Statemine',
+        text: 'asset-hub-kusama',
         providers: {
-            Parity: 'wss://statemine-rpc.polkadot.io',
-            OnFinality: 'wss://statemine.api.onfinality.io/public-ws',
-            Dwellir: 'wss://statemine-rpc.dwellir.com',
-            'Dwellir Tunisia': 'wss://statemine-rpc-tn.dwellir.com',
-            Pinknode: 'wss://public-rpc.pinknode.io/statemine',
-            RadiumBlock: 'wss://statemine.public.curie.radiumblock.co/ws'
+            Parity: 'wss://kusama-asset-hub-rpc.polkadot.io',
+            Dwellir: 'wss://asset-hub-kusama-rpc.dwellir.com',
+            LuckyFriday: 'wss://rpc-asset-hub-kusama.luckyfriday.io',
+            LuckyFriday: 'wss://rpc-asset-hub-kusama.luckyfriday.io'
         },
         teleport: [-1]
     },

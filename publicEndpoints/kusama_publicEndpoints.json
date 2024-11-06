@@ -19,16 +19,13 @@
     },
     "kusama-1000": {
         "chainkey": "kusama-1000",
-        "name": "Statemine",
-        "id": "statemine",
+        "name": "KusamaAssetHub",
+        "id": "asset-hub-kusama",
         "paraID": 1000,
         "WSEndpoints": [
-            "wss://statemine-rpc.polkadot.io",
-            "wss://statemine.api.onfinality.io/public-ws",
-            "wss://statemine-rpc.dwellir.com",
-            "wss://statemine-rpc-tn.dwellir.com",
-            "wss://public-rpc.pinknode.io/statemine",
-            "wss://statemine.public.curie.radiumblock.co/ws"
+            "wss://asset-hub-kusama-rpc.dwellir.com",
+            "wss://rpc-asset-hub-kusama.luckyfriday.io",
+            "wss://kusama-asset-hub-rpc.polkadot.io"
         ],
         "relaychain": "kusama"
     },
@@ -268,7 +265,8 @@
         "id": "mangata",
         "paraID": 2110,
         "WSEndpoints": [
-            "wss://prod-kusama-collator-01.mangatafinance.cloud"
+            "wss://kusama-archive.mangata.online",
+            "wss://kusama-rpc.mangata.online"
         ],
         "relaychain": "kusama"
     },

@@ -129,7 +129,7 @@ The data generation process is technically simple, but we cant stress enough the
 Key Use cases for the XCM Global Asset Registry (GAR):
 * Powering XCM Transfer dapps with `Multilocation`
 * Parachain Bridge Monitoring
-* Statemine DEX Aggregator
+* AssetHub DEX Aggregator
 * Cross-chain Price Quote Mechanism that have `MultiLocation`
 
 Together, we can do much better, and be more reactive to any incompleteness and inaccuracy, because simply put, 90-97% is not good enough to here. The expectation is to collaborate for the common good/maximal impact:

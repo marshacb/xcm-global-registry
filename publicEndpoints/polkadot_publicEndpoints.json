@@ -19,16 +19,13 @@
   },
   "polkadot-1000": {
     "chainkey": "polkadot-1000",
-    "name": "Statemint",
-    "id": "statemint",
+    "name": "PolkadotAssetHub",
+    "id": "asset-hub-polkadot",
     "paraID": 1000,
     "WSEndpoints": [
-      "wss://statemint-rpc.polkadot.io",
-      "wss://statemint.api.onfinality.io/public-ws",
-      "wss://statemint-rpc.dwellir.com",
-      "wss://statemint-rpc-tn.dwellir.com",
-      "wss://public-rpc.pinknode.io/statemint",
-      "wss://statemint.public.curie.radiumblock.co/ws"
+      "wss://asset-hub-polkadot-rpc.dwellir.com",
+      "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+      "wss://polkadot-asset-hub-rpc.polkadot.io"
     ],
     "relaychain": "polkadot"
   },
@@ -63,12 +60,10 @@
     "id": "moonbeam",
     "paraID": 2004,
     "WSEndpoints": [
-      "wss://wss.api.moonbeam.network",
-      "wss://1rpc.io/glmr",
+      "wss://moonbeam-rpc.publicnode.com",
       "wss://moonbeam.public.blastapi.io",
-      "wss://moonbeam.api.onfinality.io/public-ws",
-      "wss://public-rpc.pinknode.io/moonbeam",
-      "wss://moonbeam.unitedbloc.com:3001"
+      "wss://moonbeam-rpc.dwellir.com",
+      "wss://moonbeam.ibp.network"
     ],
     "relaychain": "polkadot"
   },
@@ -194,8 +189,11 @@
     "id": "hydra",
     "paraID": 2034,
     "WSEndpoints": [
+      "wss://hydradx-rpc.dwellir.com",
       "wss://rpc.hydradx.cloud",
-      "wss://hydradx-rpc.dwellir.com"
+      "wss://rpc.helikon.io/hydradx",
+      "wss://hydradx.paras.ibp.network",
+      "wss://hydration.dotters.network"
     ],
     "relaychain": "polkadot"
   },
