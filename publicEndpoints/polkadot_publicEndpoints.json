@@ -60,12 +60,10 @@
     "id": "moonbeam",
     "paraID": 2004,
     "WSEndpoints": [
-      "wss://wss.api.moonbeam.network",
-      "wss://1rpc.io/glmr",
+      "wss://moonbeam-rpc.publicnode.com",
       "wss://moonbeam.public.blastapi.io",
-      "wss://moonbeam.api.onfinality.io/public-ws",
-      "wss://public-rpc.pinknode.io/moonbeam",
-      "wss://moonbeam.unitedbloc.com:3001"
+      "wss://moonbeam-rpc.dwellir.com",
+      "wss://moonbeam.ibp.network"
     ],
     "relaychain": "polkadot"
   },
@@ -191,8 +189,11 @@
     "id": "hydra",
     "paraID": 2034,
     "WSEndpoints": [
+      "wss://hydradx-rpc.dwellir.com",
       "wss://rpc.hydradx.cloud",
-      "wss://hydradx-rpc.dwellir.com"
+      "wss://rpc.helikon.io/hydradx",
+      "wss://hydradx.paras.ibp.network",
+      "wss://hydration.dotters.network"
     ],
     "relaychain": "polkadot"
   },

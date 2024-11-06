@@ -7,7 +7,9 @@
         "symbol": "MGX",
         "decimals": 18,
         "currencyID": "0",
-        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]"
+        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]",
+        "inferred": true,
+        "confidence": 0
     },
     {
         "asset": {
@@ -17,15 +19,6 @@
         "symbol": "ETH",
         "decimals": 18,
         "currencyID": "1"
-    },
-    {
-        "asset": {
-            "Token": "10"
-        },
-        "name": "LiquidityPoolToken0x0000000A",
-        "symbol": "TKN0x00000005-TKN0x00000000",
-        "decimals": 18,
-        "currencyID": "10"
     },
     {
         "asset": {
@@ -96,30 +89,12 @@
     },
     {
         "asset": {
-            "Token": "18"
-        },
-        "name": "LiquidityPoolToken0x00000012",
-        "symbol": "TKN0x00000010-TKN0x00000000",
-        "decimals": 18,
-        "currencyID": "18"
-    },
-    {
-        "asset": {
             "Token": "19"
         },
         "name": "LiquidityPoolToken0x00000013",
         "symbol": "TKN0x00000010-TKN0x00000004",
         "decimals": 18,
         "currencyID": "19"
-    },
-    {
-        "asset": {
-            "Token": "20"
-        },
-        "name": "LiquidityPoolToken0x00000014",
-        "symbol": "TKN0x00000004-TKN0x0000000E",
-        "decimals": 18,
-        "currencyID": "20"
     },
     {
         "asset": {
@@ -132,15 +107,6 @@
     },
     {
         "asset": {
-            "Token": "22"
-        },
-        "name": "LiquidityPoolToken0x00000016",
-        "symbol": "TKN0x00000010-TKN0x0000000F",
-        "decimals": 18,
-        "currencyID": "22"
-    },
-    {
-        "asset": {
             "Token": "23"
         },
         "name": "Voucher BNC",
@@ -148,24 +114,6 @@
         "decimals": 12,
         "currencyID": "23",
         "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2001},{\"generalKey\":\"0x0101\"}]"
-    },
-    {
-        "asset": {
-            "Token": "24"
-        },
-        "name": "LiquidityPoolToken0x00000018",
-        "symbol": "TKN0x0000000F-TKN0x00000000",
-        "decimals": 18,
-        "currencyID": "24"
-    },
-    {
-        "asset": {
-            "Token": "25"
-        },
-        "name": "LiquidityPoolToken0x00000019",
-        "symbol": "TKN0x00000010-TKN0x00000000",
-        "decimals": 18,
-        "currencyID": "25"
     },
     {
         "asset": {
@@ -194,15 +142,6 @@
         "symbol": "TKN0x00000004-TKN0x0000001A",
         "decimals": 18,
         "currencyID": "28"
-    },
-    {
-        "asset": {
-            "Token": "29"
-        },
-        "name": "LiquidityPoolToken0x0000001D",
-        "symbol": "TKN0x00000004-TKN0x0000000E",
-        "decimals": 18,
-        "currencyID": "29"
     },
     {
         "asset": {
@@ -262,39 +201,13 @@
     },
     {
         "asset": {
-            "Token": "35"
+            "Token": "39"
         },
-        "name": "LiquidityPoolToken0x00000023",
-        "symbol": "TKN0x0000000E-TKN0x0000001F",
+        "name": "Moonriver",
+        "symbol": "MOVR",
         "decimals": 18,
-        "currencyID": "35"
-    },
-    {
-        "asset": {
-            "Token": "36"
-        },
-        "name": "LiquidityPoolToken0x00000024",
-        "symbol": "TKN0x00000000-TKN0x0000001E",
-        "decimals": 18,
-        "currencyID": "36"
-    },
-    {
-        "asset": {
-            "Token": "37"
-        },
-        "name": "LiquidityPoolToken0x00000025",
-        "symbol": "TKN0x0000001F-TKN0x0000001E",
-        "decimals": 18,
-        "currencyID": "37"
-    },
-    {
-        "asset": {
-            "Token": "38"
-        },
-        "name": "LiquidityPoolToken0x00000026",
-        "symbol": "TKN0x00000007-TKN0x0000000E",
-        "decimals": 18,
-        "currencyID": "38"
+        "currencyID": "39",
+        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2023},{\"palletInstance\":10}]"
     },
     {
         "asset": {
@@ -304,6 +217,60 @@
         "symbol": "KSM",
         "decimals": 12,
         "currencyID": "4"
+    },
+    {
+        "asset": {
+            "Token": "42"
+        },
+        "name": "LiquidityPoolToken0x0000002A",
+        "symbol": "TKN0x00000004-TKN0x0000000E",
+        "decimals": 18,
+        "currencyID": "42"
+    },
+    {
+        "asset": {
+            "Token": "43"
+        },
+        "name": "LiquidityPoolToken0x0000002B",
+        "symbol": "TKN0x00000000-TKN0x00000027",
+        "decimals": 18,
+        "currencyID": "43"
+    },
+    {
+        "asset": {
+            "Token": "45"
+        },
+        "name": "LiquidityPoolToken0x0000002D",
+        "symbol": "TKN0x0000000B-TKN0x00000007",
+        "decimals": 18,
+        "currencyID": "45"
+    },
+    {
+        "asset": {
+            "Token": "47"
+        },
+        "name": "LiquidityPoolToken0x0000002F",
+        "symbol": "TKN0x0000001E-TKN0x00000000",
+        "decimals": 18,
+        "currencyID": "47"
+    },
+    {
+        "asset": {
+            "Token": "48"
+        },
+        "name": "LiquidityPoolToken0x00000030",
+        "symbol": "TKN0x00000007-TKN0x0000000E",
+        "decimals": 18,
+        "currencyID": "48"
+    },
+    {
+        "asset": {
+            "Token": "49"
+        },
+        "name": "LiquidityPoolToken0x00000031",
+        "symbol": "TKN0x00000027-TKN0x00000004",
+        "decimals": 18,
+        "currencyID": "49"
     },
     {
         "asset": {
@@ -358,6 +325,8 @@
         "name": "MGX",
         "symbol": "MGX",
         "decimals": 18,
-        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]"
+        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]",
+        "inferred": true,
+        "confidence": 0
     }
 ]

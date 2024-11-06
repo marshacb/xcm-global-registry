@@ -466,7 +466,7 @@ module.exports = class XCMGlobalAssetRegistryManager {
             chainParser = new CloverParser(api, manager)
         } else if (this.isMatched(chainkey, ['polkadot-2043|origintrail'])) {
             chainParser = new OriginTrailParser(api, manager)
-        } else if (this.isMatched(chainkey, ['polkadot-2094|pendulum'])) { //disable kusama-2124|amplitude for now
+        } else if (this.isMatched(chainkey, ['polkadot-2094|pendulum'])) {
             chainParser = new PendulumParser(api, manager)
         } else if (this.isMatched(chainkey, ['polkadot-2046|darwinia'])) {
             chainParser = new DarwiniaParser(api, manager)

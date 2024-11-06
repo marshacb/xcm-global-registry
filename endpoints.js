@@ -157,7 +157,7 @@ const polkaholicKnownPublicEndpoints = {
         "relaychain": "polkadot"
     },
     "kusama-1000": {
-        "id": "asset-hub",
+        "id": "asset-hub-kusama",
         "chainID": 21000,
         "paraID": 21000,
         "relaychain": "kusama"

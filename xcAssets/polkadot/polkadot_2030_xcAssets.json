@@ -155,7 +155,7 @@
     {
         "paraID": 1000,
         "relayChain": "polkadot",
-        "nativeChainID": "statemint",
+        "nativeChainID": "asset-hub-polkadot",
         "symbol": "USDT",
         "decimals": 6,
         "interiorType": "x3",
@@ -201,7 +201,7 @@
     {
         "paraID": 1000,
         "relayChain": "polkadot",
-        "nativeChainID": "statemint",
+        "nativeChainID": "asset-hub-polkadot",
         "symbol": "USDC",
         "decimals": 6,
         "interiorType": "x3",
@@ -247,7 +247,7 @@
     {
         "paraID": 1000,
         "relayChain": "polkadot",
-        "nativeChainID": "statemint",
+        "nativeChainID": "asset-hub-polkadot",
         "symbol": "DED",
         "decimals": 10,
         "interiorType": "x3",
@@ -293,7 +293,7 @@
     {
         "paraID": 1000,
         "relayChain": "polkadot",
-        "nativeChainID": "statemint",
+        "nativeChainID": "asset-hub-polkadot",
         "symbol": "PINK",
         "decimals": 10,
         "interiorType": "x3",

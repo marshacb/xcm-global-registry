@@ -30,9 +30,7 @@
         "currencyID": {
             "Stellar": "StellarNative"
         },
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2}]",
-        "inferred": true,
-        "confidence": 0
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2}]"
     },
     {
         "asset": {
@@ -171,9 +169,7 @@
                 }
             }
         },
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]",
-        "inferred": true,
-        "confidence": 0
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]"
     },
     {
         "asset": {
@@ -197,9 +193,7 @@
                 }
             }
         },
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]",
-        "inferred": true,
-        "confidence": 0
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]"
     },
     {
         "asset": {
