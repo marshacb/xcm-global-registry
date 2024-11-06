@@ -23,8 +23,8 @@
             {
                 "relayChain": "polkadot",
                 "paraID": 1000,
-                "id": "statemint",
-                "assetCnt": "33",
+                "id": "asset-hub-polkadot",
+                "assetCnt": "352",
                 "data": [
                     {
                         "asset": {
@@ -51,8 +51,7 @@
                         "name": "Wrapped Ether",
                         "symbol": "WETH",
                         "decimals": 18,
-                        "currencyID": "100",
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":100}]"
+                        "currencyID": "100"
                     },
                     {
                         "asset": {
@@ -65,12 +64,69 @@
                     },
                     {
                         "asset": {
+                            "Token": "10000"
+                        },
+                        "name": "DOGE",
+                        "symbol": "DOGE",
+                        "decimals": 6,
+                        "currencyID": "10000"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1001"
+                        },
+                        "name": "NIFFLER",
+                        "symbol": "NFLR",
+                        "decimals": 10,
+                        "currencyID": "1001"
+                    },
+                    {
+                        "asset": {
                             "Token": "101"
                         },
                         "name": "DOTMATIONS",
                         "symbol": "DOTMA",
                         "decimals": 0,
                         "currencyID": "101"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1010"
+                        },
+                        "name": "Ethereum",
+                        "symbol": "ETH",
+                        "decimals": 10,
+                        "currencyID": "1010"
+                    },
+                    {
+                        "asset": {
+                            "Token": "10101"
+                        },
+                        "name": "COCA KOLA",
+                        "symbol": "COKE",
+                        "decimals": 10,
+                        "currencyID": "10101"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1024"
+                        },
+                        "name": "Apillon",
+                        "symbol": "NCTR",
+                        "decimals": 18,
+                        "currencyID": "1024",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1024}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "108"
+                        },
+                        "name": "GameCoin",
+                        "symbol": "GAME",
+                        "decimals": 10,
+                        "currencyID": "108"
                     },
                     {
                         "asset": {
@@ -83,12 +139,93 @@
                     },
                     {
                         "asset": {
+                            "Token": "110"
+                        },
+                        "name": "six",
+                        "symbol": "SIX",
+                        "decimals": 12,
+                        "currencyID": "110"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1107"
+                        },
+                        "name": "JAM DUNA Token on Polkadot",
+                        "symbol": "JAM",
+                        "decimals": 10,
+                        "currencyID": "1107"
+                    },
+                    {
+                        "asset": {
+                            "Token": "111"
+                        },
+                        "name": "DEMO",
+                        "symbol": "DEMO",
+                        "decimals": 6,
+                        "currencyID": "111"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1111"
+                        },
+                        "name": "Testing v2",
+                        "symbol": "TESTV2",
+                        "decimals": 12,
+                        "currencyID": "1111"
+                    },
+                    {
+                        "asset": {
+                            "Token": "112233"
+                        },
+                        "name": "My Test Coin ",
+                        "symbol": "MTC",
+                        "decimals": 10,
+                        "currencyID": "112233"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1148"
+                        },
+                        "name": "Nikola Test 2",
+                        "symbol": "NT2",
+                        "decimals": 10,
+                        "currencyID": "1148"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1180"
+                        },
+                        "name": "KrakenKash",
+                        "symbol": "KRAK",
+                        "decimals": 10,
+                        "currencyID": "1180"
+                    },
+                    {
+                        "asset": {
                             "Token": "12"
                         },
                         "name": "Cypress Dollar",
                         "symbol": "USDcp",
                         "decimals": 0,
                         "currencyID": "12"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1212"
+                        },
+                        "name": "Dotty the Polkadot",
+                        "symbol": "DOTTY",
+                        "decimals": 10,
+                        "currencyID": "1212"
+                    },
+                    {
+                        "asset": {
+                            "Token": "122"
+                        },
+                        "name": "Testing",
+                        "symbol": "TESTING",
+                        "decimals": 12,
+                        "currencyID": "122"
                     },
                     {
                         "asset": {
@@ -101,13 +238,69 @@
                     },
                     {
                         "asset": {
+                            "Token": "1230"
+                        },
+                        "name": "HAM",
+                        "symbol": "HAM",
+                        "decimals": 10,
+                        "currencyID": "1230"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1234"
+                        },
+                        "name": "BUNS",
+                        "symbol": "BUNS",
+                        "decimals": 10,
+                        "currencyID": "1234"
+                    },
+                    {
+                        "asset": {
+                            "Token": "12345"
+                        },
+                        "name": "usdc",
+                        "symbol": "usdc",
+                        "decimals": 10,
+                        "currencyID": "12345"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1313"
+                        },
+                        "name": "Gagi",
+                        "symbol": "GGI",
+                        "decimals": 6,
+                        "currencyID": "1313"
+                    },
+                    {
+                        "asset": {
                             "Token": "1337"
                         },
                         "name": "USD Coin",
                         "symbol": "USDC",
                         "decimals": 6,
                         "currencyID": "1337",
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1337}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1337}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "14"
+                        },
+                        "name": "Dot Leap",
+                        "symbol": "LEAP",
+                        "decimals": 18,
+                        "currencyID": "14"
+                    },
+                    {
+                        "asset": {
+                            "Token": "149"
+                        },
+                        "name": "Educoin",
+                        "symbol": "EDU",
+                        "decimals": 10,
+                        "currencyID": "149"
                     },
                     {
                         "asset": {
@@ -120,6 +313,117 @@
                     },
                     {
                         "asset": {
+                            "Token": "16"
+                        },
+                        "name": "COLA",
+                        "symbol": "COLA",
+                        "decimals": 6,
+                        "currencyID": "16"
+                    },
+                    {
+                        "asset": {
+                            "Token": "17"
+                        },
+                        "name": "dog wif dots",
+                        "symbol": "WIFD",
+                        "decimals": 10,
+                        "currencyID": "17",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":17}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "1747"
+                        },
+                        "name": "Emorphic LLC",
+                        "symbol": "EMR",
+                        "decimals": 10,
+                        "currencyID": "1747"
+                    },
+                    {
+                        "asset": {
+                            "Token": "18"
+                        },
+                        "name": "DOTA",
+                        "symbol": "DOTA",
+                        "decimals": 4,
+                        "currencyID": "18"
+                    },
+                    {
+                        "asset": {
+                            "Token": "181"
+                        },
+                        "name": "ROTKO NETWORKS",
+                        "symbol": "RNET",
+                        "decimals": 0,
+                        "currencyID": "181"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1810"
+                        },
+                        "name": "Test Asseted",
+                        "symbol": "TSTD",
+                        "decimals": 6,
+                        "currencyID": "1810"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1828"
+                        },
+                        "name": "Create Pools",
+                        "symbol": "CPLS",
+                        "decimals": 10,
+                        "currencyID": "1828"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1864"
+                        },
+                        "name": "JUNK",
+                        "symbol": "JUNK",
+                        "decimals": 10,
+                        "currencyID": "1864"
+                    },
+                    {
+                        "asset": {
+                            "Token": "19"
+                        },
+                        "name": "MOON",
+                        "symbol": "MOON",
+                        "decimals": 6,
+                        "currencyID": "19"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1970"
+                        },
+                        "name": "NIPPIE",
+                        "symbol": "NIPS",
+                        "decimals": 10,
+                        "currencyID": "1970"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1980"
+                        },
+                        "name": "GAVIN",
+                        "symbol": "GAVIN",
+                        "decimals": 0,
+                        "currencyID": "1980"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1983"
+                        },
+                        "name": "KAS",
+                        "symbol": "KAS",
+                        "decimals": 12,
+                        "currencyID": "1983"
+                    },
+                    {
+                        "asset": {
                             "Token": "1984"
                         },
                         "name": "Tether USD",
@@ -127,6 +431,15 @@
                         "decimals": 6,
                         "currencyID": "1984",
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1984}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1992"
+                        },
+                        "name": "SiteToken",
+                        "symbol": "SITE",
+                        "decimals": 10,
+                        "currencyID": "1992"
                     },
                     {
                         "asset": {
@@ -148,6 +461,33 @@
                     },
                     {
                         "asset": {
+                            "Token": "200"
+                        },
+                        "name": "Moneta",
+                        "symbol": "MONA",
+                        "decimals": 12,
+                        "currencyID": "200"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2000"
+                        },
+                        "name": "DAO",
+                        "symbol": "DAO",
+                        "decimals": 6,
+                        "currencyID": "2000"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2001"
+                        },
+                        "name": "DOTA",
+                        "symbol": "DOTA",
+                        "decimals": 6,
+                        "currencyID": "2001"
+                    },
+                    {
+                        "asset": {
                             "Token": "20090103"
                         },
                         "name": "BTC",
@@ -157,13 +497,1338 @@
                     },
                     {
                         "asset": {
+                            "Token": "20090104"
+                        },
+                        "name": "Dotcoin",
+                        "symbol": "DOTC",
+                        "decimals": 10,
+                        "currencyID": "20090104"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090105"
+                        },
+                        "name": "ETH",
+                        "symbol": "ETH",
+                        "decimals": 10,
+                        "currencyID": "20090105"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090106"
+                        },
+                        "name": "Polkadot Polygon",
+                        "symbol": "PMATIC",
+                        "decimals": 10,
+                        "currencyID": "20090106"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090107"
+                        },
+                        "name": "Ethereum",
+                        "symbol": "ETH",
+                        "decimals": 10,
+                        "currencyID": "20090107"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090108"
+                        },
+                        "name": "MMM",
+                        "symbol": "MMM",
+                        "decimals": 10,
+                        "currencyID": "20090108"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090109"
+                        },
+                        "name": "Matic",
+                        "symbol": "MATIC",
+                        "decimals": 10,
+                        "currencyID": "20090109"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090110"
+                        },
+                        "name": "TEST",
+                        "symbol": "test1",
+                        "decimals": 10,
+                        "currencyID": "20090110"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090111"
+                        },
+                        "name": "txt",
+                        "symbol": "txt",
+                        "decimals": 10,
+                        "currencyID": "20090111"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090112"
+                        },
+                        "name": "Sol Ethereum",
+                        "symbol": "SOLETH",
+                        "decimals": 10,
+                        "currencyID": "20090112"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090113"
+                        },
+                        "name": "TEST",
+                        "symbol": "test1",
+                        "decimals": 10,
+                        "currencyID": "20090113"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090114"
+                        },
+                        "name": "DOTTIE",
+                        "symbol": "DOI",
+                        "decimals": 10,
+                        "currencyID": "20090114"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090115"
+                        },
+                        "name": "DOTCOIN: The Meme Coin for DOT Holders",
+                        "symbol": "DOTCOIN",
+                        "decimals": 10,
+                        "currencyID": "20090115"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090116"
+                        },
+                        "name": "Pookie",
+                        "symbol": "POO",
+                        "decimals": 10,
+                        "currencyID": "20090116"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090117"
+                        },
+                        "name": "DEDISDED",
+                        "symbol": "DEDX",
+                        "decimals": 10,
+                        "currencyID": "20090117"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090118"
+                        },
+                        "name": "TRUMP",
+                        "symbol": "NOTDED",
+                        "decimals": 10,
+                        "currencyID": "20090118"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090119"
+                        },
+                        "name": "Make DOT Great Again",
+                        "symbol": "MDGA",
+                        "decimals": 10,
+                        "currencyID": "20090119"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090120"
+                        },
+                        "name": "LUNCH",
+                        "symbol": "LUNCH",
+                        "decimals": 10,
+                        "currencyID": "20090120"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090121"
+                        },
+                        "name": "Itchy bomb weed ",
+                        "symbol": "IBW",
+                        "decimals": 10,
+                        "currencyID": "20090121"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090122"
+                        },
+                        "name": "Croissant",
+                        "symbol": "0xf09fa590",
+                        "decimals": 10,
+                        "currencyID": "20090122"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090123"
+                        },
+                        "name": "OpenGOV Drama Show",
+                        "symbol": "GOVD",
+                        "decimals": 10,
+                        "currencyID": "20090123"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090124"
+                        },
+                        "name": "TEST",
+                        "symbol": "test1",
+                        "decimals": 10,
+                        "currencyID": "20090124"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090125"
+                        },
+                        "name": "Pink Pengui",
+                        "symbol": "PP",
+                        "decimals": 10,
+                        "currencyID": "20090125"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090126"
+                        },
+                        "name": "0xf09f9a80f09f9a80f09f9a8020446f67204d6f6f6e20f09f9a80f09f9a80f09f9a80",
+                        "symbol": "DOGMOON",
+                        "decimals": 10,
+                        "currencyID": "20090126"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090127"
+                        },
+                        "name": "GREEN CANDLE",
+                        "symbol": "PAMPIT",
+                        "decimals": 10,
+                        "currencyID": "20090127"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090128"
+                        },
+                        "name": "DEGEN STINK",
+                        "symbol": "DSTINK",
+                        "decimals": 10,
+                        "currencyID": "20090128"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090129"
+                        },
+                        "name": "FUCK CHAOS DAO",
+                        "symbol": "FCD",
+                        "decimals": 10,
+                        "currencyID": "20090129"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090130"
+                        },
+                        "name": "Sus",
+                        "symbol": "SUS",
+                        "decimals": 10,
+                        "currencyID": "20090130"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090131"
+                        },
+                        "name": "Darth Vader Cat",
+                        "symbol": "DVCAT",
+                        "decimals": 10,
+                        "currencyID": "20090131"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090132"
+                        },
+                        "name": "The Beggars Club",
+                        "symbol": "Beggar",
+                        "decimals": 10,
+                        "currencyID": "20090132"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090133"
+                        },
+                        "name": "Blue Screen of Death",
+                        "symbol": "BSOD",
+                        "decimals": 10,
+                        "currencyID": "20090133"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090134"
+                        },
+                        "name": "Dotcoin",
+                        "symbol": "DOTCOIN",
+                        "decimals": 10,
+                        "currencyID": "20090134"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090135"
+                        },
+                        "name": "DONT MUZZLE THE OX",
+                        "symbol": "DMX",
+                        "decimals": 10,
+                        "currencyID": "20090135"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090136"
+                        },
+                        "name": "Hawk Tuah Girl",
+                        "symbol": "HTG",
+                        "decimals": 10,
+                        "currencyID": "20090136"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090137"
+                        },
+                        "name": "Shawn Too Breezy",
+                        "symbol": "hawn",
+                        "decimals": 10,
+                        "currencyID": "20090137"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090138"
+                        },
+                        "name": "Loooong",
+                        "symbol": "LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONG",
+                        "decimals": 10,
+                        "currencyID": "20090138"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090139"
+                        },
+                        "name": "Dusty",
+                        "symbol": "DUSTY",
+                        "decimals": 10,
+                        "currencyID": "20090139"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090140"
+                        },
+                        "name": "Grifters",
+                        "symbol": "Grift ",
+                        "decimals": 10,
+                        "currencyID": "20090140"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090141"
+                        },
+                        "name": "Gary",
+                        "symbol": "Guzzler",
+                        "decimals": 10,
+                        "currencyID": "20090141"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090142"
+                        },
+                        "name": "Elona Musk",
+                        "symbol": "ELONA",
+                        "decimals": 10,
+                        "currencyID": "20090142"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090143"
+                        },
+                        "name": "DOT Master",
+                        "symbol": "DMSTR",
+                        "decimals": 10,
+                        "currencyID": "20090143"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090144"
+                        },
+                        "name": "Chuggin Wif Chad",
+                        "symbol": "CHUG",
+                        "decimals": 10,
+                        "currencyID": "20090144"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090145"
+                        },
+                        "name": "ROCK DOGG ",
+                        "symbol": "ROCK",
+                        "decimals": 10,
+                        "currencyID": "20090145"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090146"
+                        },
+                        "name": "Dope",
+                        "symbol": "DOPE ",
+                        "decimals": 10,
+                        "currencyID": "20090146"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090147"
+                        },
+                        "name": "Remote Viewed Gav",
+                        "symbol": "RVGAV",
+                        "decimals": 10,
+                        "currencyID": "20090147"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090148"
+                        },
+                        "name": "Moommy",
+                        "symbol": "BOB",
+                        "decimals": 10,
+                        "currencyID": "20090148"
+                    },
+                    {
+                        "asset": {
+                            "Token": "20090149"
+                        },
+                        "name": "TOD",
+                        "symbol": "TOD",
+                        "decimals": 10,
+                        "currencyID": "20090149"
+                    },
+                    {
+                        "asset": {
+                            "Token": "201"
+                        },
+                        "name": "WUD",
+                        "symbol": "WUD",
+                        "decimals": 6,
+                        "currencyID": "201"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2020"
+                        },
+                        "name": "HydraCoin",
+                        "symbol": "HYDRA",
+                        "decimals": 10,
+                        "currencyID": "2020"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2023"
+                        },
+                        "name": "amin",
+                        "symbol": "dot",
+                        "decimals": 0,
+                        "currencyID": "2023"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2024"
+                        },
+                        "name": "WOOD",
+                        "symbol": "WOOD",
+                        "decimals": 10,
+                        "currencyID": "2024"
+                    },
+                    {
+                        "asset": {
+                            "Token": "202406"
+                        },
+                        "name": "POLKADOT-USDT",
+                        "symbol": "USDT",
+                        "decimals": 16,
+                        "currencyID": "202406"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2025"
+                        },
+                        "name": "Flamingo",
+                        "symbol": "FLMG",
+                        "decimals": 20,
+                        "currencyID": "2025"
+                    },
+                    {
+                        "asset": {
                             "Token": "21"
                         },
                         "name": "Wrapped Bitcoin",
                         "symbol": "WBTC",
                         "decimals": 8,
                         "currencyID": "21",
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":21}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":21}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "2106"
+                        },
+                        "name": "Substreak Token",
+                        "symbol": "STREAK",
+                        "decimals": 10,
+                        "currencyID": "2106"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2121"
+                        },
+                        "name": "DED is skem",
+                        "symbol": "SKEM",
+                        "decimals": 10,
+                        "currencyID": "2121"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22"
+                        },
+                        "name": "KANARY",
+                        "symbol": "KNRY",
+                        "decimals": 10,
+                        "currencyID": "22"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2203"
+                        },
+                        "name": "Polkadot Bitcoin",
+                        "symbol": "PBTC",
+                        "decimals": 10,
+                        "currencyID": "2203"
+                    },
+                    {
+                        "asset": {
+                            "Token": "222"
+                        },
+                        "name": "SHELL",
+                        "symbol": "SHL",
+                        "decimals": 6,
+                        "currencyID": "222"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2222"
+                        },
+                        "name": "DUCK_DOT",
+                        "symbol": "DUCK",
+                        "decimals": 10,
+                        "currencyID": "2222"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222000"
+                        },
+                        "name": "OHMYGOD",
+                        "symbol": "OMG",
+                        "decimals": 12,
+                        "currencyID": "22222000"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222001"
+                        },
+                        "name": "OhMyGod2",
+                        "symbol": "OMG2",
+                        "decimals": 12,
+                        "currencyID": "22222001"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222002"
+                        },
+                        "name": "TestMemeLast",
+                        "symbol": "TeMeL",
+                        "decimals": 12,
+                        "currencyID": "22222002"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222003"
+                        },
+                        "name": "TestMeme2L",
+                        "symbol": "TeMe2L",
+                        "decimals": 12,
+                        "currencyID": "22222003"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222004"
+                        },
+                        "name": "TestMemeLast3",
+                        "symbol": "TeMeL3",
+                        "decimals": 12,
+                        "currencyID": "22222004"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222005"
+                        },
+                        "name": "0xe98193e998bbe4b894e995bfefbc8ce6b8a9e69a96e59d9ae5ae9a2de788b1e683852f6c6f7665",
+                        "symbol": "love",
+                        "decimals": 12,
+                        "currencyID": "22222005"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222006"
+                        },
+                        "name": "Let's Fucking Go",
+                        "symbol": "LFG",
+                        "decimals": 12,
+                        "currencyID": "22222006"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222007"
+                        },
+                        "name": "Salt",
+                        "symbol": "NaCl",
+                        "decimals": 12,
+                        "currencyID": "22222007"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222008"
+                        },
+                        "name": "ALIEN",
+                        "symbol": "ALIEN",
+                        "decimals": 12,
+                        "currencyID": "22222008"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222009"
+                        },
+                        "name": "china",
+                        "symbol": "china",
+                        "decimals": 12,
+                        "currencyID": "22222009"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222010"
+                        },
+                        "name": "Trump President meme",
+                        "symbol": "TP",
+                        "decimals": 12,
+                        "currencyID": "22222010"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222011"
+                        },
+                        "name": "Polkadot Mexico",
+                        "symbol": "PM",
+                        "decimals": 12,
+                        "currencyID": "22222011"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222012"
+                        },
+                        "name": "DamnCoin",
+                        "symbol": "DAMN",
+                        "decimals": 12,
+                        "currencyID": "22222012"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222013"
+                        },
+                        "name": "Trump meme",
+                        "symbol": "TM",
+                        "decimals": 12,
+                        "currencyID": "22222013"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222014"
+                        },
+                        "name": "GIOTTO",
+                        "symbol": "GIT",
+                        "decimals": 12,
+                        "currencyID": "22222014"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222015"
+                        },
+                        "name": "BASTI",
+                        "symbol": "B",
+                        "decimals": 12,
+                        "currencyID": "22222015"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222016"
+                        },
+                        "name": "Mr. Shekels",
+                        "symbol": "MRSHE",
+                        "decimals": 12,
+                        "currencyID": "22222016"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222017"
+                        },
+                        "name": "SantaDOT",
+                        "symbol": "SANTA",
+                        "decimals": 12,
+                        "currencyID": "22222017"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222018"
+                        },
+                        "name": "WOLF",
+                        "symbol": "WOLF",
+                        "decimals": 12,
+                        "currencyID": "22222018"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222019"
+                        },
+                        "name": "Polkadot Insider",
+                        "symbol": "PI",
+                        "decimals": 12,
+                        "currencyID": "22222019"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222020"
+                        },
+                        "name": "Costco Hotdog",
+                        "symbol": "CDOG",
+                        "decimals": 12,
+                        "currencyID": "22222020"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222021"
+                        },
+                        "name": "Big Balls Ben",
+                        "symbol": "BBB",
+                        "decimals": 12,
+                        "currencyID": "22222021"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222022"
+                        },
+                        "name": "X",
+                        "symbol": "X",
+                        "decimals": 12,
+                        "currencyID": "22222022"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222023"
+                        },
+                        "name": "LURPIS",
+                        "symbol": "LURPIS",
+                        "decimals": 12,
+                        "currencyID": "22222023"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222024"
+                        },
+                        "name": "Polkadot  Insider",
+                        "symbol": "POLISD",
+                        "decimals": 12,
+                        "currencyID": "22222024"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222025"
+                        },
+                        "name": "XCM_Shib",
+                        "symbol": "XCMS",
+                        "decimals": 12,
+                        "currencyID": "22222025"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222026"
+                        },
+                        "name": "Donkey DOT",
+                        "symbol": "DDOT",
+                        "decimals": 12,
+                        "currencyID": "22222026"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222027"
+                        },
+                        "name": "TODODECRIPTO",
+                        "symbol": "TDC",
+                        "decimals": 12,
+                        "currencyID": "22222027"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222028"
+                        },
+                        "name": "Polkacaine",
+                        "symbol": "COKE",
+                        "decimals": 12,
+                        "currencyID": "22222028"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222029"
+                        },
+                        "name": "dotdog",
+                        "symbol": "dog",
+                        "decimals": 12,
+                        "currencyID": "22222029"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222030"
+                        },
+                        "name": "Pink Pigs",
+                        "symbol": "PIGS",
+                        "decimals": 12,
+                        "currencyID": "22222030"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222031"
+                        },
+                        "name": "Viresinnumeris",
+                        "symbol": "VRN",
+                        "decimals": 12,
+                        "currencyID": "22222031"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222032"
+                        },
+                        "name": "FREE KIM DOTCOM",
+                        "symbol": "FKDC",
+                        "decimals": 12,
+                        "currencyID": "22222032"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222033"
+                        },
+                        "name": "OG Block H@SH",
+                        "symbol": "H@SH",
+                        "decimals": 12,
+                        "currencyID": "22222033"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222034"
+                        },
+                        "name": "F*c*Giotto",
+                        "symbol": "0xf09f9980",
+                        "decimals": 12,
+                        "currencyID": "22222034"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222035"
+                        },
+                        "name": "DOT wif Hat",
+                        "symbol": ".WH",
+                        "decimals": 12,
+                        "currencyID": "22222035"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222036"
+                        },
+                        "name": "Poop",
+                        "symbol": "Shit",
+                        "decimals": 12,
+                        "currencyID": "22222036"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222037"
+                        },
+                        "name": "KUSAMA",
+                        "symbol": "KSM",
+                        "decimals": 12,
+                        "currencyID": "22222037"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222038"
+                        },
+                        "name": "VORY",
+                        "symbol": "VOR",
+                        "decimals": 12,
+                        "currencyID": "22222038"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222039"
+                        },
+                        "name": "DOTCAST",
+                        "symbol": "DTS",
+                        "decimals": 12,
+                        "currencyID": "22222039"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222040"
+                        },
+                        "name": "MEMEPAD NOFUN",
+                        "symbol": "NOFUN",
+                        "decimals": 12,
+                        "currencyID": "22222040"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222041"
+                        },
+                        "name": "MEMEPAD NO FUN",
+                        "symbol": "PAD",
+                        "decimals": 12,
+                        "currencyID": "22222041"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222042"
+                        },
+                        "name": "The Core",
+                        "symbol": "CORE",
+                        "decimals": 12,
+                        "currencyID": "22222042"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222043"
+                        },
+                        "name": "DIGITAL DOT",
+                        "symbol": "DDT",
+                        "decimals": 12,
+                        "currencyID": "22222043"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222044"
+                        },
+                        "name": "Singularity Block",
+                        "symbol": "DONUT",
+                        "decimals": 12,
+                        "currencyID": "22222044"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222045"
+                        },
+                        "name": "Singularity",
+                        "symbol": "O",
+                        "decimals": 12,
+                        "currencyID": "22222045"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222046"
+                        },
+                        "name": "Steelers",
+                        "symbol": "$PGH",
+                        "decimals": 12,
+                        "currencyID": "22222046"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222047"
+                        },
+                        "name": "Gavwifhat",
+                        "symbol": "GWIF",
+                        "decimals": 12,
+                        "currencyID": "22222047"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222048"
+                        },
+                        "name": "Polkasharks",
+                        "symbol": "PKSK",
+                        "decimals": 12,
+                        "currencyID": "22222048"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222049"
+                        },
+                        "name": "Lucky 777",
+                        "symbol": "LUCKY",
+                        "decimals": 12,
+                        "currencyID": "22222049"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222050"
+                        },
+                        "name": "CLOTHES OFF",
+                        "symbol": "SHIVER",
+                        "decimals": 12,
+                        "currencyID": "22222050"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222051"
+                        },
+                        "name": "synergy AI",
+                        "symbol": "NIN",
+                        "decimals": 12,
+                        "currencyID": "22222051"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222052"
+                        },
+                        "name": "Quant Full Potato.AI",
+                        "symbol": "MODE",
+                        "decimals": 12,
+                        "currencyID": "22222052"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222053"
+                        },
+                        "name": "DOTZILLA",
+                        "symbol": "DOTZ",
+                        "decimals": 12,
+                        "currencyID": "22222053"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222054"
+                        },
+                        "name": "Donkey",
+                        "symbol": "DON",
+                        "decimals": 12,
+                        "currencyID": "22222054"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222055"
+                        },
+                        "name": "TOP",
+                        "symbol": "TOP",
+                        "decimals": 12,
+                        "currencyID": "22222055"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222056"
+                        },
+                        "name": "KEK",
+                        "symbol": "KEK",
+                        "decimals": 12,
+                        "currencyID": "22222056"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222057"
+                        },
+                        "name": "Idiom.AI",
+                        "symbol": "DIO",
+                        "decimals": 12,
+                        "currencyID": "22222057"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222058"
+                        },
+                        "name": "Pleasance",
+                        "symbol": "PLS",
+                        "decimals": 12,
+                        "currencyID": "22222058"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222059"
+                        },
+                        "name": "Goodman",
+                        "symbol": "GOOD",
+                        "decimals": 12,
+                        "currencyID": "22222059"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222060"
+                        },
+                        "name": "Thunderdome",
+                        "symbol": "TATE",
+                        "decimals": 12,
+                        "currencyID": "22222060"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222061"
+                        },
+                        "name": "Autonomus Deity.AI",
+                        "symbol": "MONAD",
+                        "decimals": 12,
+                        "currencyID": "22222061"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222062"
+                        },
+                        "name": "Alpha Investoor",
+                        "symbol": "ALPHA",
+                        "decimals": 12,
+                        "currencyID": "22222062"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222063"
+                        },
+                        "name": "White Panther Max",
+                        "symbol": "MAXCAT",
+                        "decimals": 12,
+                        "currencyID": "22222063"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222064"
+                        },
+                        "name": "See-Saw",
+                        "symbol": "RIDEMY",
+                        "decimals": 12,
+                        "currencyID": "22222064"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222065"
+                        },
+                        "name": "BIG BBQ",
+                        "symbol": "BBQ",
+                        "decimals": 12,
+                        "currencyID": "22222065"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222066"
+                        },
+                        "name": "Inverse WUD",
+                        "symbol": "DUW",
+                        "decimals": 12,
+                        "currencyID": "22222066"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222067"
+                        },
+                        "name": "ZALUPA",
+                        "symbol": "ZALUPA",
+                        "decimals": 12,
+                        "currencyID": "22222067"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222068"
+                        },
+                        "name": "Victory!",
+                        "symbol": "V",
+                        "decimals": 12,
+                        "currencyID": "22222068"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222069"
+                        },
+                        "name": "Inu Zeta 1",
+                        "symbol": "HELLO",
+                        "decimals": 12,
+                        "currencyID": "22222069"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222070"
+                        },
+                        "name": "Million",
+                        "symbol": "Mill",
+                        "decimals": 12,
+                        "currencyID": "22222070"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222071"
+                        },
+                        "name": "R2D2100 WUD FUD",
+                        "symbol": "WUDFUD",
+                        "decimals": 12,
+                        "currencyID": "22222071"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222072"
+                        },
+                        "name": "BEAN GUY",
+                        "symbol": "BNG",
+                        "decimals": 12,
+                        "currencyID": "22222072"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222073"
+                        },
+                        "name": "0x4b61696279c58d",
+                        "symbol": "0x4b61696279c58d",
+                        "decimals": 12,
+                        "currencyID": "22222073"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222074"
+                        },
+                        "name": "JAM",
+                        "symbol": "$JAM",
+                        "decimals": 12,
+                        "currencyID": "22222074"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222075"
+                        },
+                        "name": "Inverse_WUD",
+                        "symbol": "DUD",
+                        "decimals": 12,
+                        "currencyID": "22222075"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222076"
+                        },
+                        "name": "Apple",
+                        "symbol": "AAPL",
+                        "decimals": 12,
+                        "currencyID": "22222076"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222077"
+                        },
+                        "name": "Homosapien Sapien",
+                        "symbol": "SAPIEN",
+                        "decimals": 12,
+                        "currencyID": "22222077"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222078"
+                        },
+                        "name": "JAMTON",
+                        "symbol": "JAMTON",
+                        "decimals": 12,
+                        "currencyID": "22222078"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222079"
+                        },
+                        "name": "GREECE",
+                        "symbol": "GR",
+                        "decimals": 12,
+                        "currencyID": "22222079"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222080"
+                        },
+                        "name": "GreenNFT",
+                        "symbol": "GREEN",
+                        "decimals": 12,
+                        "currencyID": "22222080"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222081"
+                        },
+                        "name": "Naruto",
+                        "symbol": "NAR",
+                        "decimals": 12,
+                        "currencyID": "22222081"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222082"
+                        },
+                        "name": "Axlo",
+                        "symbol": "Ax",
+                        "decimals": 12,
+                        "currencyID": "22222082"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222084"
+                        },
+                        "name": "Sophia",
+                        "symbol": "SOPHIA",
+                        "decimals": 12,
+                        "currencyID": "22222084"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222085"
+                        },
+                        "name": "Anunnaki",
+                        "symbol": "ANU",
+                        "decimals": 12,
+                        "currencyID": "22222085"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222086"
+                        },
+                        "name": "Biff",
+                        "symbol": "BIFF",
+                        "decimals": 12,
+                        "currencyID": "22222086"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222087"
+                        },
+                        "name": "KAIBYO",
+                        "symbol": "KAIBYO",
+                        "decimals": 12,
+                        "currencyID": "22222087"
+                    },
+                    {
+                        "asset": {
+                            "Token": "22222088"
+                        },
+                        "name": "KUSAMAOBAMAYOMAMA",
+                        "symbol": "KOYM",
+                        "decimals": 12,
+                        "currencyID": "22222088"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2230"
+                        },
+                        "name": "Gabe's Stable BILLCOIN",
+                        "symbol": "GBILL",
+                        "decimals": 8,
+                        "currencyID": "2230"
                     },
                     {
                         "asset": {
@@ -173,7 +1838,36 @@
                         "symbol": "PINK",
                         "decimals": 10,
                         "currencyID": "23",
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":23}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":23}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "24"
+                        },
+                        "name": "Porkydog",
+                        "symbol": "PRDOG",
+                        "decimals": 10,
+                        "currencyID": "24"
+                    },
+                    {
+                        "asset": {
+                            "Token": "25"
+                        },
+                        "name": "T54",
+                        "symbol": "T54",
+                        "decimals": 10,
+                        "currencyID": "25"
+                    },
+                    {
+                        "asset": {
+                            "Token": "25518"
+                        },
+                        "name": "BEER",
+                        "symbol": "BEER",
+                        "decimals": 6,
+                        "currencyID": "25518"
                     },
                     {
                         "asset": {
@@ -186,12 +1880,243 @@
                     },
                     {
                         "asset": {
+                            "Token": "26"
+                        },
+                        "name": "POKA",
+                        "symbol": "POKA",
+                        "decimals": 6,
+                        "currencyID": "26"
+                    },
+                    {
+                        "asset": {
+                            "Token": "27"
+                        },
+                        "name": "FISH",
+                        "symbol": "FISH",
+                        "decimals": 6,
+                        "currencyID": "27"
+                    },
+                    {
+                        "asset": {
+                            "Token": "28"
+                        },
+                        "name": "BULL",
+                        "symbol": "BULL",
+                        "decimals": 6,
+                        "currencyID": "28"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2820"
+                        },
+                        "name": "Jellied Owls",
+                        "symbol": "HOOT",
+                        "decimals": 6,
+                        "currencyID": "2820"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2828"
+                        },
+                        "name": "JAM DODGER",
+                        "symbol": "JAMD",
+                        "decimals": 10,
+                        "currencyID": "2828"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2829"
+                        },
+                        "name": "JTO",
+                        "symbol": "JTO",
+                        "decimals": 10,
+                        "currencyID": "2829"
+                    },
+                    {
+                        "asset": {
+                            "Token": "29"
+                        },
+                        "name": "SHRIMP",
+                        "symbol": "SHRIMP",
+                        "decimals": 10,
+                        "currencyID": "29"
+                    },
+                    {
+                        "asset": {
                             "Token": "3"
                         },
                         "name": "DOT",
                         "symbol": "DOT",
                         "decimals": 20,
                         "currencyID": "3"
+                    },
+                    {
+                        "asset": {
+                            "Token": "30"
+                        },
+                        "name": "DED",
+                        "symbol": "DED",
+                        "decimals": 10,
+                        "currencyID": "30",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":30}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "300"
+                        },
+                        "name": "DOGE",
+                        "symbol": "DOGE",
+                        "decimals": 6,
+                        "currencyID": "300"
+                    },
+                    {
+                        "asset": {
+                            "Token": "30035"
+                        },
+                        "name": "DOT is Dead",
+                        "symbol": "DED",
+                        "decimals": 18,
+                        "currencyID": "30035"
+                    },
+                    {
+                        "asset": {
+                            "Token": "301"
+                        },
+                        "name": "HORN",
+                        "symbol": "HORN",
+                        "decimals": 6,
+                        "currencyID": "301"
+                    },
+                    {
+                        "asset": {
+                            "Token": "31"
+                        },
+                        "name": "WOOD",
+                        "symbol": "WOOD",
+                        "decimals": 6,
+                        "currencyID": "31"
+                    },
+                    {
+                        "asset": {
+                            "Token": "31337"
+                        },
+                        "name": "GAVUN WUD",
+                        "symbol": "WUD",
+                        "decimals": 10,
+                        "currencyID": "31337",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":31337}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "3164"
+                        },
+                        "name": "TestTest",
+                        "symbol": "TTT",
+                        "decimals": 3,
+                        "currencyID": "3164"
+                    },
+                    {
+                        "asset": {
+                            "Token": "32"
+                        },
+                        "name": "ClayOnDot",
+                        "symbol": "CLAY",
+                        "decimals": 10,
+                        "currencyID": "32"
+                    },
+                    {
+                        "asset": {
+                            "Token": "33"
+                        },
+                        "name": "COCOA",
+                        "symbol": "COCOA",
+                        "decimals": 10,
+                        "currencyID": "33"
+                    },
+                    {
+                        "asset": {
+                            "Token": "333"
+                        },
+                        "name": "DOKA",
+                        "symbol": "DOKA",
+                        "decimals": 6,
+                        "currencyID": "333"
+                    },
+                    {
+                        "asset": {
+                            "Token": "33441"
+                        },
+                        "name": "MPACT",
+                        "symbol": "MPACT",
+                        "decimals": 8,
+                        "currencyID": "33441"
+                    },
+                    {
+                        "asset": {
+                            "Token": "34"
+                        },
+                        "name": "MemeTest",
+                        "symbol": "MeTest",
+                        "decimals": 12,
+                        "currencyID": "34"
+                    },
+                    {
+                        "asset": {
+                            "Token": "35"
+                        },
+                        "name": "DOGE (Polkadot Asset Hub)",
+                        "symbol": "DOGE",
+                        "decimals": 10,
+                        "currencyID": "35"
+                    },
+                    {
+                        "asset": {
+                            "Token": "36"
+                        },
+                        "name": "ClayOnDot",
+                        "symbol": "CLAY",
+                        "decimals": 10,
+                        "currencyID": "36"
+                    },
+                    {
+                        "asset": {
+                            "Token": "37"
+                        },
+                        "name": "DODA",
+                        "symbol": "DODA",
+                        "decimals": 6,
+                        "currencyID": "37"
+                    },
+                    {
+                        "asset": {
+                            "Token": "37362"
+                        },
+                        "name": "TEST",
+                        "symbol": "TEST",
+                        "decimals": 10,
+                        "currencyID": "37362"
+                    },
+                    {
+                        "asset": {
+                            "Token": "38"
+                        },
+                        "name": "SHIB",
+                        "symbol": "SHIB",
+                        "decimals": 6,
+                        "currencyID": "38"
+                    },
+                    {
+                        "asset": {
+                            "Token": "39"
+                        },
+                        "name": "PEPE",
+                        "symbol": "PEPE",
+                        "decimals": 6,
+                        "currencyID": "39"
                     },
                     {
                         "asset": {
@@ -204,12 +2129,483 @@
                     },
                     {
                         "asset": {
+                            "Token": "40"
+                        },
+                        "name": "PEPE ON POLKADOT TO THE MOON",
+                        "symbol": "PEPE",
+                        "decimals": 10,
+                        "currencyID": "40"
+                    },
+                    {
+                        "asset": {
+                            "Token": "404"
+                        },
+                        "name": "CLAY",
+                        "symbol": "clay",
+                        "decimals": 20,
+                        "currencyID": "404"
+                    },
+                    {
+                        "asset": {
+                            "Token": "41"
+                        },
+                        "name": "TestMeme4",
+                        "symbol": "TeMe4",
+                        "decimals": 12,
+                        "currencyID": "41"
+                    },
+                    {
+                        "asset": {
+                            "Token": "4157"
+                        },
+                        "name": "Polkadog",
+                        "symbol": "PDOG",
+                        "decimals": 10,
+                        "currencyID": "4157"
+                    },
+                    {
+                        "asset": {
+                            "Token": "42"
+                        },
+                        "name": "Gavun Wud 1980",
+                        "symbol": "GAVUN",
+                        "decimals": 10,
+                        "currencyID": "42"
+                    },
+                    {
+                        "asset": {
+                            "Token": "420"
+                        },
+                        "name": "BEEFY",
+                        "symbol": "BEEFY",
+                        "decimals": 2,
+                        "currencyID": "420"
+                    },
+                    {
+                        "asset": {
+                            "Token": "420666"
+                        },
+                        "name": "Gio Coin",
+                        "symbol": "GIO",
+                        "decimals": 10,
+                        "currencyID": "420666"
+                    },
+                    {
+                        "asset": {
+                            "Token": "42069"
+                        },
+                        "name": "STINK",
+                        "symbol": "STINK",
+                        "decimals": 10,
+                        "currencyID": "42069",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":42069}]",
+                        "inferred": true,
+                        "confidence": 0
+                    },
+                    {
+                        "asset": {
+                            "Token": "4242"
+                        },
+                        "name": "GAVUN WOOD",
+                        "symbol": "GAVUN",
+                        "decimals": 10,
+                        "currencyID": "4242"
+                    },
+                    {
+                        "asset": {
+                            "Token": "43"
+                        },
+                        "name": "TestMeme5",
+                        "symbol": "TeMe5",
+                        "decimals": 12,
+                        "currencyID": "43"
+                    },
+                    {
+                        "asset": {
+                            "Token": "44"
+                        },
+                        "name": "SKULL",
+                        "symbol": "SKL",
+                        "decimals": 6,
+                        "currencyID": "44"
+                    },
+                    {
+                        "asset": {
+                            "Token": "45"
+                        },
+                        "name": "HydraCoin",
+                        "symbol": "HYDRA",
+                        "decimals": 10,
+                        "currencyID": "45"
+                    },
+                    {
+                        "asset": {
+                            "Token": "457"
+                        },
+                        "name": "hguyguy",
+                        "symbol": "HGVH",
+                        "decimals": 10,
+                        "currencyID": "457"
+                    },
+                    {
+                        "asset": {
+                            "Token": "46"
+                        },
+                        "name": "0x50455045e280a24f4ee280a2444f54e280a2544fe280a2544845e280a24d4f4f4e20",
+                        "symbol": "PEPE",
+                        "decimals": 10,
+                        "currencyID": "46"
+                    },
+                    {
+                        "asset": {
+                            "Token": "47"
+                        },
+                        "name": "PumpMyBags",
+                        "symbol": "TeMe6Pump",
+                        "decimals": 12,
+                        "currencyID": "47"
+                    },
+                    {
+                        "asset": {
+                            "Token": "48"
+                        },
+                        "name": "SAXEMBERG GULDEN",
+                        "symbol": "SAX",
+                        "decimals": 2,
+                        "currencyID": "48"
+                    },
+                    {
+                        "asset": {
+                            "Token": "482"
+                        },
+                        "name": "HUB Swap",
+                        "symbol": "HUB",
+                        "decimals": 10,
+                        "currencyID": "482"
+                    },
+                    {
+                        "asset": {
+                            "Token": "49"
+                        },
+                        "name": "TestMeme7",
+                        "symbol": "TeMe7",
+                        "decimals": 12,
+                        "currencyID": "49"
+                    },
+                    {
+                        "asset": {
                             "Token": "5"
                         },
                         "name": "PLX",
                         "symbol": "PLX",
                         "decimals": 9,
                         "currencyID": "5"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50"
+                        },
+                        "name": "CAT WIF SWEATER",
+                        "symbol": "CATWIF",
+                        "decimals": 10,
+                        "currencyID": "50"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000000"
+                        },
+                        "name": "AMS GLOBAL ARBITRAGE",
+                        "symbol": "AGA",
+                        "decimals": 12,
+                        "currencyID": "50000000"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000002"
+                        },
+                        "name": "NYBORG",
+                        "symbol": "NYBORG",
+                        "decimals": 12,
+                        "currencyID": "50000002"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000003"
+                        },
+                        "name": "BITCOIN_ARMY",
+                        "symbol": "ARMY",
+                        "decimals": 12,
+                        "currencyID": "50000003"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000004"
+                        },
+                        "name": "Inter Miami",
+                        "symbol": "MIA",
+                        "decimals": 0,
+                        "currencyID": "50000004"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000005"
+                        },
+                        "name": "The Goat",
+                        "symbol": "GOAT",
+                        "decimals": 12,
+                        "currencyID": "50000005"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000006"
+                        },
+                        "name": "NERDS",
+                        "symbol": "NERDS",
+                        "decimals": 8,
+                        "currencyID": "50000006"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000007"
+                        },
+                        "name": "i1DOT",
+                        "symbol": "i1DOT",
+                        "decimals": 12,
+                        "currencyID": "50000007"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000008"
+                        },
+                        "name": "Gabicoin",
+                        "symbol": "GABI",
+                        "decimals": 12,
+                        "currencyID": "50000008"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000009"
+                        },
+                        "name": "Gabicat",
+                        "symbol": "GABIC",
+                        "decimals": 12,
+                        "currencyID": "50000009"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000010"
+                        },
+                        "name": "The Kusamarian",
+                        "symbol": "KUS",
+                        "decimals": 12,
+                        "currencyID": "50000010"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000011"
+                        },
+                        "name": "No Nut November",
+                        "symbol": "NNN",
+                        "decimals": 12,
+                        "currencyID": "50000011"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000012"
+                        },
+                        "name": "PolkadotHungaryDAO",
+                        "symbol": "PHUDAO",
+                        "decimals": 12,
+                        "currencyID": "50000012"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000013"
+                        },
+                        "name": "PolkadotHungary",
+                        "symbol": "PHU",
+                        "decimals": 12,
+                        "currencyID": "50000013"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000014"
+                        },
+                        "name": "MOSA",
+                        "symbol": "MOSA",
+                        "decimals": 12,
+                        "currencyID": "50000014"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000015"
+                        },
+                        "name": "TrumpMuskNexus",
+                        "symbol": "TMN",
+                        "decimals": 12,
+                        "currencyID": "50000015"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000016"
+                        },
+                        "name": "Donald Pump",
+                        "symbol": "TRUMP",
+                        "decimals": 12,
+                        "currencyID": "50000016"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000017"
+                        },
+                        "name": "PUMP",
+                        "symbol": "PUMP",
+                        "decimals": 12,
+                        "currencyID": "50000017"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000018"
+                        },
+                        "name": "TRUMPXMUSK",
+                        "symbol": "TXM",
+                        "decimals": 12,
+                        "currencyID": "50000018"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000019"
+                        },
+                        "name": "TT",
+                        "symbol": "TT",
+                        "decimals": 12,
+                        "currencyID": "50000019"
+                    },
+                    {
+                        "asset": {
+                            "Token": "51"
+                        },
+                        "name": "JAMA",
+                        "symbol": "JAMA",
+                        "decimals": 6,
+                        "currencyID": "51"
+                    },
+                    {
+                        "asset": {
+                            "Token": "52"
+                        },
+                        "name": "TestMeme8",
+                        "symbol": "TeMe8",
+                        "decimals": 12,
+                        "currencyID": "52"
+                    },
+                    {
+                        "asset": {
+                            "Token": "53"
+                        },
+                        "name": "TestMeme9",
+                        "symbol": "TeMe9",
+                        "decimals": 12,
+                        "currencyID": "53"
+                    },
+                    {
+                        "asset": {
+                            "Token": "5318008"
+                        },
+                        "name": "PixelPulse",
+                        "symbol": "PXPS",
+                        "decimals": 10,
+                        "currencyID": "5318008"
+                    },
+                    {
+                        "asset": {
+                            "Token": "5361"
+                        },
+                        "name": "Nikola Test",
+                        "symbol": "NAT",
+                        "decimals": 10,
+                        "currencyID": "5361"
+                    },
+                    {
+                        "asset": {
+                            "Token": "54"
+                        },
+                        "name": "TestMeme10",
+                        "symbol": "TeMe10",
+                        "decimals": 12,
+                        "currencyID": "54"
+                    },
+                    {
+                        "asset": {
+                            "Token": "5417"
+                        },
+                        "name": "HASHONOMICS",
+                        "symbol": "HASH",
+                        "decimals": 18,
+                        "currencyID": "5417"
+                    },
+                    {
+                        "asset": {
+                            "Token": "55"
+                        },
+                        "name": "COFI",
+                        "symbol": "COFI",
+                        "decimals": 6,
+                        "currencyID": "55"
+                    },
+                    {
+                        "asset": {
+                            "Token": "555"
+                        },
+                        "name": "GAME",
+                        "symbol": "GAME",
+                        "decimals": 10,
+                        "currencyID": "555"
+                    },
+                    {
+                        "asset": {
+                            "Token": "56"
+                        },
+                        "name": "UNION",
+                        "symbol": "UNION",
+                        "decimals": 6,
+                        "currencyID": "56"
+                    },
+                    {
+                        "asset": {
+                            "Token": "567"
+                        },
+                        "name": "ANT",
+                        "symbol": "ANT",
+                        "decimals": 6,
+                        "currencyID": "567"
+                    },
+                    {
+                        "asset": {
+                            "Token": "57"
+                        },
+                        "name": "Micro",
+                        "symbol": "MCP",
+                        "decimals": 12,
+                        "currencyID": "57"
+                    },
+                    {
+                        "asset": {
+                            "Token": "58"
+                        },
+                        "name": "MDMA",
+                        "symbol": "MDMA",
+                        "decimals": 12,
+                        "currencyID": "58"
+                    },
+                    {
+                        "asset": {
+                            "Token": "59"
+                        },
+                        "name": "OK",
+                        "symbol": "OK",
+                        "decimals": 12,
+                        "currencyID": "59"
                     },
                     {
                         "asset": {
@@ -222,6 +2618,96 @@
                     },
                     {
                         "asset": {
+                            "Token": "60"
+                        },
+                        "name": "ANT",
+                        "symbol": "ANT",
+                        "decimals": 6,
+                        "currencyID": "60"
+                    },
+                    {
+                        "asset": {
+                            "Token": "61"
+                        },
+                        "name": "SUN",
+                        "symbol": "SUN",
+                        "decimals": 6,
+                        "currencyID": "61"
+                    },
+                    {
+                        "asset": {
+                            "Token": "62"
+                        },
+                        "name": "Cypress Polkadot",
+                        "symbol": "CPDOT",
+                        "decimals": 12,
+                        "currencyID": "62"
+                    },
+                    {
+                        "asset": {
+                            "Token": "63"
+                        },
+                        "name": "JUSTBUYME",
+                        "symbol": "JBM",
+                        "decimals": 12,
+                        "currencyID": "63"
+                    },
+                    {
+                        "asset": {
+                            "Token": "64"
+                        },
+                        "name": "Cypress Coin",
+                        "symbol": "CPcoin",
+                        "decimals": 12,
+                        "currencyID": "64"
+                    },
+                    {
+                        "asset": {
+                            "Token": "65"
+                        },
+                        "name": "TestMeme11",
+                        "symbol": "TeMe11",
+                        "decimals": 12,
+                        "currencyID": "65"
+                    },
+                    {
+                        "asset": {
+                            "Token": "65454"
+                        },
+                        "name": "Test",
+                        "symbol": "TST",
+                        "decimals": 10,
+                        "currencyID": "65454"
+                    },
+                    {
+                        "asset": {
+                            "Token": "6594"
+                        },
+                        "name": "MVPW Test",
+                        "symbol": "MVPW",
+                        "decimals": 3,
+                        "currencyID": "6594"
+                    },
+                    {
+                        "asset": {
+                            "Token": "66"
+                        },
+                        "name": "DOGE",
+                        "symbol": "DOGE",
+                        "decimals": 6,
+                        "currencyID": "66"
+                    },
+                    {
+                        "asset": {
+                            "Token": "660301"
+                        },
+                        "name": "GRELIVE",
+                        "symbol": "GRL",
+                        "decimals": 6,
+                        "currencyID": "660301"
+                    },
+                    {
+                        "asset": {
                             "Token": "666"
                         },
                         "name": "Danger Coin",
@@ -231,12 +2717,165 @@
                     },
                     {
                         "asset": {
+                            "Token": "6666"
+                        },
+                        "name": "CHAOS",
+                        "symbol": "CHAOS",
+                        "decimals": 10,
+                        "currencyID": "6666"
+                    },
+                    {
+                        "asset": {
+                            "Token": "669"
+                        },
+                        "name": "lishay",
+                        "symbol": "lish",
+                        "decimals": 9,
+                        "currencyID": "669"
+                    },
+                    {
+                        "asset": {
+                            "Token": "67"
+                        },
+                        "name": "LINK",
+                        "symbol": "LINK",
+                        "decimals": 6,
+                        "currencyID": "67"
+                    },
+                    {
+                        "asset": {
+                            "Token": "678"
+                        },
+                        "name": "SATS",
+                        "symbol": "SATS",
+                        "decimals": 6,
+                        "currencyID": "678"
+                    },
+                    {
+                        "asset": {
+                            "Token": "68"
+                        },
+                        "name": "Coin68",
+                        "symbol": "Coin68",
+                        "decimals": 12,
+                        "currencyID": "68"
+                    },
+                    {
+                        "asset": {
+                            "Token": "69"
+                        },
+                        "name": "Dalmation",
+                        "symbol": "DAL",
+                        "decimals": 18,
+                        "currencyID": "69"
+                    },
+                    {
+                        "asset": {
+                            "Token": "690"
+                        },
+                        "name": "BORK",
+                        "symbol": "BORK",
+                        "decimals": 10,
+                        "currencyID": "690"
+                    },
+                    {
+                        "asset": {
+                            "Token": "69420"
+                        },
+                        "name": "GABE",
+                        "symbol": "GABE",
+                        "decimals": 20,
+                        "currencyID": "69420"
+                    },
+                    {
+                        "asset": {
+                            "Token": "6969"
+                        },
+                        "name": "Leemo",
+                        "symbol": "LEEMO",
+                        "decimals": 10,
+                        "currencyID": "6969"
+                    },
+                    {
+                        "asset": {
                             "Token": "7"
                         },
                         "name": "lucky7",
                         "symbol": "lucky7",
                         "decimals": 20,
                         "currencyID": "7"
+                    },
+                    {
+                        "asset": {
+                            "Token": "70"
+                        },
+                        "name": "STEEBOOOOORRR",
+                        "symbol": "STEEBOR",
+                        "decimals": 20,
+                        "currencyID": "70"
+                    },
+                    {
+                        "asset": {
+                            "Token": "7006"
+                        },
+                        "name": "test",
+                        "symbol": "ttt",
+                        "decimals": 0,
+                        "currencyID": "7006"
+                    },
+                    {
+                        "asset": {
+                            "Token": "71"
+                        },
+                        "name": "CATNIP",
+                        "symbol": "CATNIP",
+                        "decimals": 20,
+                        "currencyID": "71"
+                    },
+                    {
+                        "asset": {
+                            "Token": "7151"
+                        },
+                        "name": "TUKI",
+                        "symbol": "TUKI",
+                        "decimals": 8,
+                        "currencyID": "7151"
+                    },
+                    {
+                        "asset": {
+                            "Token": "72"
+                        },
+                        "name": "Neha test",
+                        "symbol": "NEHT",
+                        "decimals": 12,
+                        "currencyID": "72"
+                    },
+                    {
+                        "asset": {
+                            "Token": "73"
+                        },
+                        "name": "TestMeme12",
+                        "symbol": "TeMe12",
+                        "decimals": 12,
+                        "currencyID": "73"
+                    },
+                    {
+                        "asset": {
+                            "Token": "74"
+                        },
+                        "name": "TestMeme13",
+                        "symbol": "TeMe13",
+                        "decimals": 12,
+                        "currencyID": "74"
+                    },
+                    {
+                        "asset": {
+                            "Token": "75"
+                        },
+                        "name": "TestMeme14",
+                        "symbol": "TeMe14",
+                        "decimals": 12,
+                        "currencyID": "75"
                     },
                     {
                         "asset": {
@@ -258,6 +2897,51 @@
                     },
                     {
                         "asset": {
+                            "Token": "77777"
+                        },
+                        "name": "Bohemia Coin",
+                        "symbol": "WOOP",
+                        "decimals": 12,
+                        "currencyID": "77777"
+                    },
+                    {
+                        "asset": {
+                            "Token": "777777"
+                        },
+                        "name": "HelloGhost",
+                        "symbol": "HLG",
+                        "decimals": 18,
+                        "currencyID": "777777"
+                    },
+                    {
+                        "asset": {
+                            "Token": "7777777"
+                        },
+                        "name": "Deer Wif Hat",
+                        "symbol": "DWH",
+                        "decimals": 10,
+                        "currencyID": "7777777"
+                    },
+                    {
+                        "asset": {
+                            "Token": "78"
+                        },
+                        "name": "COCA",
+                        "symbol": "COCA",
+                        "decimals": 6,
+                        "currencyID": "78"
+                    },
+                    {
+                        "asset": {
+                            "Token": "789"
+                        },
+                        "name": "DBX",
+                        "symbol": "DBX",
+                        "decimals": 6,
+                        "currencyID": "789"
+                    },
+                    {
+                        "asset": {
                             "Token": "79"
                         },
                         "name": "Polkagold",
@@ -273,6 +2957,69 @@
                         "symbol": "JOE",
                         "decimals": 9,
                         "currencyID": "8"
+                    },
+                    {
+                        "asset": {
+                            "Token": "80"
+                        },
+                        "name": "OpenGov Drama",
+                        "symbol": "GOVD",
+                        "decimals": 10,
+                        "currencyID": "80"
+                    },
+                    {
+                        "asset": {
+                            "Token": "8008"
+                        },
+                        "name": "HOBO",
+                        "symbol": "HOBO",
+                        "decimals": 2,
+                        "currencyID": "8008"
+                    },
+                    {
+                        "asset": {
+                            "Token": "81"
+                        },
+                        "name": "GAVIN",
+                        "symbol": "GVN",
+                        "decimals": 6,
+                        "currencyID": "81"
+                    },
+                    {
+                        "asset": {
+                            "Token": "82"
+                        },
+                        "name": "ANGRY",
+                        "symbol": "ANGRY",
+                        "decimals": 12,
+                        "currencyID": "82"
+                    },
+                    {
+                        "asset": {
+                            "Token": "8277"
+                        },
+                        "name": "KH5 Polkadot Asst Hub USDT",
+                        "symbol": "KH5usdt",
+                        "decimals": 20,
+                        "currencyID": "8277"
+                    },
+                    {
+                        "asset": {
+                            "Token": "83"
+                        },
+                        "name": "BOYS",
+                        "symbol": "BOYS",
+                        "decimals": 12,
+                        "currencyID": "83"
+                    },
+                    {
+                        "asset": {
+                            "Token": "86"
+                        },
+                        "name": "Kolkadot",
+                        "symbol": "KOL",
+                        "decimals": 12,
+                        "currencyID": "86"
                     },
                     {
                         "asset": {
@@ -294,12 +3041,147 @@
                     },
                     {
                         "asset": {
+                            "Token": "88"
+                        },
+                        "name": "PANDA",
+                        "symbol": "PND",
+                        "decimals": 6,
+                        "currencyID": "88"
+                    },
+                    {
+                        "asset": {
+                            "Token": "888"
+                        },
+                        "name": "AssetX",
+                        "symbol": "ASX",
+                        "decimals": 10,
+                        "currencyID": "888"
+                    },
+                    {
+                        "asset": {
+                            "Token": "8888"
+                        },
+                        "name": "Pirate's Booty",
+                        "symbol": "BOOTY",
+                        "decimals": 10,
+                        "currencyID": "8888"
+                    },
+                    {
+                        "asset": {
+                            "Token": "8889"
+                        },
+                        "name": "BANDIT the CAT",
+                        "symbol": "BNDT",
+                        "decimals": 10,
+                        "currencyID": "8889"
+                    },
+                    {
+                        "asset": {
+                            "Token": "89"
+                        },
+                        "name": "STAR",
+                        "symbol": "STAR",
+                        "decimals": 6,
+                        "currencyID": "89"
+                    },
+                    {
+                        "asset": {
                             "Token": "9"
                         },
                         "name": "Polkadot Index",
                         "symbol": "PINT",
                         "decimals": 12,
                         "currencyID": "9"
+                    },
+                    {
+                        "asset": {
+                            "Token": "90"
+                        },
+                        "name": "ANT COIN",
+                        "symbol": "ATC",
+                        "decimals": 6,
+                        "currencyID": "90"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9000"
+                        },
+                        "name": "PLAY",
+                        "symbol": "PLAY",
+                        "decimals": 10,
+                        "currencyID": "9000"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9001"
+                        },
+                        "name": "BOMB",
+                        "symbol": "BOMB",
+                        "decimals": 10,
+                        "currencyID": "9001"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9002"
+                        },
+                        "name": "TAPE",
+                        "symbol": "TAPE",
+                        "decimals": 10,
+                        "currencyID": "9002"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9003"
+                        },
+                        "name": "KTRL",
+                        "symbol": "KTRL",
+                        "decimals": 10,
+                        "currencyID": "9003"
+                    },
+                    {
+                        "asset": {
+                            "Token": "91"
+                        },
+                        "name": "WING",
+                        "symbol": "WING",
+                        "decimals": 6,
+                        "currencyID": "91"
+                    },
+                    {
+                        "asset": {
+                            "Token": "92"
+                        },
+                        "name": "TestMeme2",
+                        "symbol": "TeMe2",
+                        "decimals": 12,
+                        "currencyID": "92"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9202"
+                        },
+                        "name": "BUG",
+                        "symbol": "BUG",
+                        "decimals": 12,
+                        "currencyID": "9202"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9527"
+                        },
+                        "name": "LA SAI CAT",
+                        "symbol": "LSCAT",
+                        "decimals": 10,
+                        "currencyID": "9527"
+                    },
+                    {
+                        "asset": {
+                            "Token": "97"
+                        },
+                        "name": "TestMeme3",
+                        "symbol": "TeMe3",
+                        "decimals": 12,
+                        "currencyID": "97"
                     },
                     {
                         "asset": {
@@ -318,6 +3200,15 @@
                         "symbol": "gold",
                         "decimals": 20,
                         "currencyID": "999"
+                    },
+                    {
+                        "asset": {
+                            "Token": "9999"
+                        },
+                        "name": "Tomcoin",
+                        "symbol": "TOM",
+                        "decimals": 10,
+                        "currencyID": "9999"
                     },
                     {
                         "asset": {
@@ -3956,7 +6847,9 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -4467,8 +7360,8 @@
             {
                 "relayChain": "kusama",
                 "paraID": 1000,
-                "id": "statemine",
-                "assetCnt": "161",
+                "id": "asset-hub-kusama",
+                "assetCnt": "180",
                 "data": [
                     {
                         "asset": {
@@ -4546,8 +7439,8 @@
                         "asset": {
                             "Token": "1107"
                         },
-                        "name": "polkaholic.io Token",
-                        "symbol": "HOLIC",
+                        "name": "JAM DUNA on Kusama",
+                        "symbol": "JAM",
                         "decimals": 12,
                         "currencyID": "1107"
                     },
@@ -4577,6 +7470,15 @@
                         "symbol": "KVC",
                         "decimals": 12,
                         "currencyID": "11111"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1121"
+                        },
+                        "name": "Other Asset",
+                        "symbol": "OAT",
+                        "decimals": 12,
+                        "currencyID": "1121"
                     },
                     {
                         "asset": {
@@ -4616,6 +7518,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "120"
+                        },
+                        "name": "Other Asset Token",
+                        "symbol": "OAT",
+                        "decimals": 4,
+                        "currencyID": "120"
+                    },
+                    {
+                        "asset": {
                             "Token": "1225"
                         },
                         "name": "GOD",
@@ -4652,12 +7563,30 @@
                     },
                     {
                         "asset": {
+                            "Token": "123456"
+                        },
+                        "name": "DummyXC20",
+                        "symbol": "DMX",
+                        "decimals": 18,
+                        "currencyID": "123456"
+                    },
+                    {
+                        "asset": {
                             "Token": "13"
                         },
                         "name": "LuckyNumber",
                         "symbol": "LN",
                         "decimals": 13,
                         "currencyID": "13"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1311"
+                        },
+                        "name": "Gacy Test",
+                        "symbol": "GCT",
+                        "decimals": 4,
+                        "currencyID": "1311"
                     },
                     {
                         "asset": {
@@ -4748,7 +7677,9 @@
                         "symbol": "ARIS",
                         "decimals": 8,
                         "currencyID": "16",
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":16}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":16}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -4788,6 +7719,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "177"
+                        },
+                        "name": "Kusama Test",
+                        "symbol": "KST",
+                        "decimals": 4,
+                        "currencyID": "177"
+                    },
+                    {
+                        "asset": {
                             "Token": "18"
                         },
                         "name": "HEIHEI",
@@ -4803,6 +7743,15 @@
                         "symbol": "ZLK",
                         "decimals": 12,
                         "currencyID": "188"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1899"
+                        },
+                        "name": "BABY KNRY",
+                        "symbol": "BKNRY",
+                        "decimals": 5,
+                        "currencyID": "1899"
                     },
                     {
                         "asset": {
@@ -4831,6 +7780,15 @@
                         "symbol": "USDt",
                         "decimals": 3,
                         "currencyID": "19840"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1985"
+                        },
+                        "name": "Jeff3",
+                        "symbol": "web3",
+                        "decimals": 16,
+                        "currencyID": "1985"
                     },
                     {
                         "asset": {
@@ -4870,12 +7828,30 @@
                     },
                     {
                         "asset": {
+                            "Token": "2000"
+                        },
+                        "name": "TetherUSDT",
+                        "symbol": "USDT",
+                        "decimals": 10,
+                        "currencyID": "2000"
+                    },
+                    {
+                        "asset": {
                             "Token": "2021"
                         },
                         "name": "wave network",
                         "symbol": "WAVE",
                         "decimals": 4,
                         "currencyID": "2021"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2025"
+                        },
+                        "name": "Flamingo",
+                        "symbol": "FLMG",
+                        "decimals": 10,
+                        "currencyID": "2025"
                     },
                     {
                         "asset": {
@@ -4951,6 +7927,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "22060"
+                        },
+                        "name": "RON",
+                        "symbol": "RON",
+                        "decimals": 3,
+                        "currencyID": "22060"
+                    },
+                    {
+                        "asset": {
                             "Token": "222"
                         },
                         "name": "Planet Neo Token",
@@ -4966,7 +7951,9 @@
                         "symbol": "BILL",
                         "decimals": 8,
                         "currencyID": "223",
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":223}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":223}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -4979,12 +7966,30 @@
                     },
                     {
                         "asset": {
+                            "Token": "2284739"
+                        },
+                        "name": "Educational Tarantula",
+                        "symbol": "ETAR",
+                        "decimals": 2,
+                        "currencyID": "2284739"
+                    },
+                    {
+                        "asset": {
                             "Token": "23"
                         },
                         "name": "DLTKOJO",
                         "symbol": "KOJO",
                         "decimals": 3,
                         "currencyID": "23"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2323"
+                        },
+                        "name": "Testiranje",
+                        "symbol": "Tsn",
+                        "decimals": 2,
+                        "currencyID": "2323"
                     },
                     {
                         "asset": {
@@ -5003,6 +8008,15 @@
                         "symbol": "BABE",
                         "decimals": 10,
                         "currencyID": "25"
+                    },
+                    {
+                        "asset": {
+                            "Token": "252"
+                        },
+                        "name": "BLACK",
+                        "symbol": "BLACK",
+                        "decimals": 12,
+                        "currencyID": "252"
                     },
                     {
                         "asset": {
@@ -5033,12 +8047,30 @@
                     },
                     {
                         "asset": {
+                            "Token": "2820"
+                        },
+                        "name": "Jellied Owls",
+                        "symbol": "HOOT",
+                        "decimals": 6,
+                        "currencyID": "2820"
+                    },
+                    {
+                        "asset": {
                             "Token": "29"
                         },
                         "name": "COUPONS",
                         "symbol": "CODES",
                         "decimals": 10,
                         "currencyID": "29"
+                    },
+                    {
+                        "asset": {
+                            "Token": "2993"
+                        },
+                        "name": "WOOD",
+                        "symbol": "WOOD",
+                        "decimals": 6,
+                        "currencyID": "2993"
                     },
                     {
                         "asset": {
@@ -5276,6 +8308,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "3913"
+                        },
+                        "name": "HAPPY",
+                        "symbol": "KAI ",
+                        "decimals": 16,
+                        "currencyID": "3913"
+                    },
+                    {
+                        "asset": {
                             "Token": "3943"
                         },
                         "name": "GoldMark",
@@ -5357,15 +8398,6 @@
                     },
                     {
                         "asset": {
-                            "Token": "4294967291"
-                        },
-                        "name": "MAX PRIME",
-                        "symbol": "PRIME",
-                        "decimals": 7,
-                        "currencyID": "4294967291"
-                    },
-                    {
-                        "asset": {
                             "Token": "43"
                         },
                         "name": "Tricky-NFT.art Treasure Token",
@@ -5411,6 +8443,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "48"
+                        },
+                        "name": "Jacques le Woof",
+                        "symbol": "LWOOF",
+                        "decimals": 9,
+                        "currencyID": "48"
+                    },
+                    {
+                        "asset": {
                             "Token": "49"
                         },
                         "name": "ENDIANNESS",
@@ -5435,6 +8476,24 @@
                         "symbol": "PROMO",
                         "decimals": 18,
                         "currencyID": "50"
+                    },
+                    {
+                        "asset": {
+                            "Token": "500"
+                        },
+                        "name": "DOT is DED",
+                        "symbol": "$DED",
+                        "decimals": 12,
+                        "currencyID": "500"
+                    },
+                    {
+                        "asset": {
+                            "Token": "51"
+                        },
+                        "name": "STONE",
+                        "symbol": "STONE",
+                        "decimals": 6,
+                        "currencyID": "51"
                     },
                     {
                         "asset": {
@@ -5489,15 +8548,6 @@
                         "symbol": "KUSA",
                         "decimals": 2,
                         "currencyID": "569"
-                    },
-                    {
-                        "asset": {
-                            "Token": "5797867"
-                        },
-                        "name": "Dot Take Tokens",
-                        "symbol": "TAKE",
-                        "decimals": 0,
-                        "currencyID": "5797867"
                     },
                     {
                         "asset": {
@@ -5629,9 +8679,9 @@
                         "asset": {
                             "Token": "70"
                         },
-                        "name": "MarLira",
-                        "symbol": "MAR",
-                        "decimals": 5,
+                        "name": "KarasuCoin",
+                        "symbol": "KRSU",
+                        "decimals": 12,
                         "currencyID": "70"
                     },
                     {
@@ -5651,6 +8701,15 @@
                         "symbol": "cipher",
                         "decimals": 10,
                         "currencyID": "75"
+                    },
+                    {
+                        "asset": {
+                            "Token": "756"
+                        },
+                        "name": "Test Me",
+                        "symbol": "TSM",
+                        "decimals": 2,
+                        "currencyID": "756"
                     },
                     {
                         "asset": {
@@ -5714,7 +8773,9 @@
                         "symbol": "RMRK",
                         "decimals": 10,
                         "currencyID": "8",
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":8}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":8}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -5745,6 +8806,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "81"
+                        },
+                        "name": "DEDY",
+                        "symbol": "TEMU",
+                        "decimals": 12,
+                        "currencyID": "81"
+                    },
+                    {
+                        "asset": {
                             "Token": "813"
                         },
                         "name": "Teddy Bucks",
@@ -5760,6 +8830,15 @@
                         "symbol": "YAYOI",
                         "decimals": 10,
                         "currencyID": "841"
+                    },
+                    {
+                        "asset": {
+                            "Token": "85"
+                        },
+                        "name": "DOTisDED",
+                        "symbol": "DED",
+                        "decimals": 0,
+                        "currencyID": "85"
                     },
                     {
                         "asset": {
@@ -5877,15 +8956,6 @@
                         "symbol": "LUL",
                         "decimals": 12,
                         "currencyID": "95834"
-                    },
-                    {
-                        "asset": {
-                            "Token": "969"
-                        },
-                        "name": "WagTool",
-                        "symbol": "WGTL",
-                        "decimals": 2,
-                        "currencyID": "969"
                     },
                     {
                         "asset": {
@@ -8673,7 +11743,7 @@
                 "relayChain": "kusama",
                 "paraID": 2110,
                 "id": "mangata",
-                "assetCnt": "39",
+                "assetCnt": "35",
                 "data": [
                     {
                         "asset": {
@@ -8683,7 +11753,9 @@
                         "symbol": "MGX",
                         "decimals": 18,
                         "currencyID": "0",
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -8693,15 +11765,6 @@
                         "symbol": "ETH",
                         "decimals": 18,
                         "currencyID": "1"
-                    },
-                    {
-                        "asset": {
-                            "Token": "10"
-                        },
-                        "name": "LiquidityPoolToken0x0000000A",
-                        "symbol": "TKN0x00000005-TKN0x00000000",
-                        "decimals": 18,
-                        "currencyID": "10"
                     },
                     {
                         "asset": {
@@ -8772,30 +11835,12 @@
                     },
                     {
                         "asset": {
-                            "Token": "18"
-                        },
-                        "name": "LiquidityPoolToken0x00000012",
-                        "symbol": "TKN0x00000010-TKN0x00000000",
-                        "decimals": 18,
-                        "currencyID": "18"
-                    },
-                    {
-                        "asset": {
                             "Token": "19"
                         },
                         "name": "LiquidityPoolToken0x00000013",
                         "symbol": "TKN0x00000010-TKN0x00000004",
                         "decimals": 18,
                         "currencyID": "19"
-                    },
-                    {
-                        "asset": {
-                            "Token": "20"
-                        },
-                        "name": "LiquidityPoolToken0x00000014",
-                        "symbol": "TKN0x00000004-TKN0x0000000E",
-                        "decimals": 18,
-                        "currencyID": "20"
                     },
                     {
                         "asset": {
@@ -8808,15 +11853,6 @@
                     },
                     {
                         "asset": {
-                            "Token": "22"
-                        },
-                        "name": "LiquidityPoolToken0x00000016",
-                        "symbol": "TKN0x00000010-TKN0x0000000F",
-                        "decimals": 18,
-                        "currencyID": "22"
-                    },
-                    {
-                        "asset": {
                             "Token": "23"
                         },
                         "name": "Voucher BNC",
@@ -8824,24 +11860,6 @@
                         "decimals": 12,
                         "currencyID": "23",
                         "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2001},{\"generalKey\":\"0x0101\"}]"
-                    },
-                    {
-                        "asset": {
-                            "Token": "24"
-                        },
-                        "name": "LiquidityPoolToken0x00000018",
-                        "symbol": "TKN0x0000000F-TKN0x00000000",
-                        "decimals": 18,
-                        "currencyID": "24"
-                    },
-                    {
-                        "asset": {
-                            "Token": "25"
-                        },
-                        "name": "LiquidityPoolToken0x00000019",
-                        "symbol": "TKN0x00000010-TKN0x00000000",
-                        "decimals": 18,
-                        "currencyID": "25"
                     },
                     {
                         "asset": {
@@ -8870,15 +11888,6 @@
                         "symbol": "TKN0x00000004-TKN0x0000001A",
                         "decimals": 18,
                         "currencyID": "28"
-                    },
-                    {
-                        "asset": {
-                            "Token": "29"
-                        },
-                        "name": "LiquidityPoolToken0x0000001D",
-                        "symbol": "TKN0x00000004-TKN0x0000000E",
-                        "decimals": 18,
-                        "currencyID": "29"
                     },
                     {
                         "asset": {
@@ -8938,39 +11947,13 @@
                     },
                     {
                         "asset": {
-                            "Token": "35"
+                            "Token": "39"
                         },
-                        "name": "LiquidityPoolToken0x00000023",
-                        "symbol": "TKN0x0000000E-TKN0x0000001F",
+                        "name": "Moonriver",
+                        "symbol": "MOVR",
                         "decimals": 18,
-                        "currencyID": "35"
-                    },
-                    {
-                        "asset": {
-                            "Token": "36"
-                        },
-                        "name": "LiquidityPoolToken0x00000024",
-                        "symbol": "TKN0x00000000-TKN0x0000001E",
-                        "decimals": 18,
-                        "currencyID": "36"
-                    },
-                    {
-                        "asset": {
-                            "Token": "37"
-                        },
-                        "name": "LiquidityPoolToken0x00000025",
-                        "symbol": "TKN0x0000001F-TKN0x0000001E",
-                        "decimals": 18,
-                        "currencyID": "37"
-                    },
-                    {
-                        "asset": {
-                            "Token": "38"
-                        },
-                        "name": "LiquidityPoolToken0x00000026",
-                        "symbol": "TKN0x00000007-TKN0x0000000E",
-                        "decimals": 18,
-                        "currencyID": "38"
+                        "currencyID": "39",
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2023},{\"palletInstance\":10}]"
                     },
                     {
                         "asset": {
@@ -8980,6 +11963,60 @@
                         "symbol": "KSM",
                         "decimals": 12,
                         "currencyID": "4"
+                    },
+                    {
+                        "asset": {
+                            "Token": "42"
+                        },
+                        "name": "LiquidityPoolToken0x0000002A",
+                        "symbol": "TKN0x00000004-TKN0x0000000E",
+                        "decimals": 18,
+                        "currencyID": "42"
+                    },
+                    {
+                        "asset": {
+                            "Token": "43"
+                        },
+                        "name": "LiquidityPoolToken0x0000002B",
+                        "symbol": "TKN0x00000000-TKN0x00000027",
+                        "decimals": 18,
+                        "currencyID": "43"
+                    },
+                    {
+                        "asset": {
+                            "Token": "45"
+                        },
+                        "name": "LiquidityPoolToken0x0000002D",
+                        "symbol": "TKN0x0000000B-TKN0x00000007",
+                        "decimals": 18,
+                        "currencyID": "45"
+                    },
+                    {
+                        "asset": {
+                            "Token": "47"
+                        },
+                        "name": "LiquidityPoolToken0x0000002F",
+                        "symbol": "TKN0x0000001E-TKN0x00000000",
+                        "decimals": 18,
+                        "currencyID": "47"
+                    },
+                    {
+                        "asset": {
+                            "Token": "48"
+                        },
+                        "name": "LiquidityPoolToken0x00000030",
+                        "symbol": "TKN0x00000007-TKN0x0000000E",
+                        "decimals": 18,
+                        "currencyID": "48"
+                    },
+                    {
+                        "asset": {
+                            "Token": "49"
+                        },
+                        "name": "LiquidityPoolToken0x00000031",
+                        "symbol": "TKN0x00000027-TKN0x00000004",
+                        "decimals": 18,
+                        "currencyID": "49"
                     },
                     {
                         "asset": {
@@ -9034,7 +12071,9 @@
                         "name": "MGX",
                         "symbol": "MGX",
                         "decimals": 18,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2110},{\"generalKey\":\"0x00000000\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -9177,9 +12216,7 @@
                         "name": "TUR",
                         "symbol": "TUR",
                         "decimals": 10,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]"
                     }
                 ]
             },
@@ -9345,9 +12382,7 @@
                         "name": "AMPE",
                         "symbol": "AMPE",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2124},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2124},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -9380,7 +12415,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -9426,7 +12461,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -9472,7 +12507,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -9518,7 +12553,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "WETHah",
                         "decimals": 18,
                         "interiorType": "x3",
@@ -9564,7 +12599,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "WBTC",
                         "decimals": 8,
                         "interiorType": "x3",
@@ -10352,7 +13387,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "WIFD",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -10397,7 +13432,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "DED",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -10442,7 +13477,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -10487,7 +13522,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "NCTR",
                         "decimals": 18,
                         "interiorType": "x3",
@@ -10532,7 +13567,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -10577,7 +13612,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -10622,7 +13657,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "STINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -12078,7 +15113,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -12123,7 +15158,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -12168,7 +15203,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -13926,7 +16961,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -13972,7 +17007,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -14018,7 +17053,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "DED",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -14064,7 +17099,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -14741,7 +17776,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -14787,7 +17822,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -15355,7 +18390,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -15401,7 +18436,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -16181,7 +19216,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -16225,7 +19260,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "WUD",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -16269,7 +19304,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -17559,7 +20594,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -18161,7 +21196,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "ahUSDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -18205,7 +21240,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "ahPINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -18285,7 +21320,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDC",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -18331,7 +21366,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "PINK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -18377,7 +21412,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "polkadot",
-                        "nativeChainID": "statemint",
+                        "nativeChainID": "asset-hub-polkadot",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -18799,7 +21834,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "RMRK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -18845,7 +21880,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -18891,7 +21926,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "ARIS",
                         "decimals": 8,
                         "interiorType": "x3",
@@ -19645,7 +22680,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "RMRK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -19691,7 +22726,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -20946,7 +23981,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "BILL",
                         "decimals": 8,
                         "interiorType": "x3",
@@ -20991,7 +24026,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -21843,7 +24878,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -21888,7 +24923,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "RMRK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -22730,7 +25765,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -23484,7 +26519,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -23828,7 +26863,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -24334,7 +27369,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -24589,12 +27624,12 @@
                 "relayChain": "kusama",
                 "paraID": 2110,
                 "id": "mangata",
-                "xcAssetCnt": "9",
+                "xcAssetCnt": "10",
                 "data": [
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "USDT",
                         "decimals": 6,
                         "interiorType": "x3",
@@ -24612,7 +27647,6 @@
                                 "generalIndex": 1984
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x010300a10f043205011f",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -24639,7 +27673,7 @@
                     {
                         "paraID": 1000,
                         "relayChain": "kusama",
-                        "nativeChainID": "statemine",
+                        "nativeChainID": "asset-hub-kusama",
                         "symbol": "RMRK",
                         "decimals": 10,
                         "interiorType": "x3",
@@ -24657,7 +27691,6 @@
                                 "generalIndex": 8
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x010300a10f04320520",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -24685,123 +27718,6 @@
                         "paraID": 2001,
                         "relayChain": "kusama",
                         "nativeChainID": "bifrost",
-                        "symbol": "BNC",
-                        "decimals": 12,
-                        "interiorType": "x2",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            {
-                                "parachain": 2001
-                            },
-                            {
-                                "generalKey": "0x0001"
-                            }
-                        ],
-                        "xcmV1MultiLocationByte": "0x010200451f06080001",
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "x2": [
-                                        {
-                                            "parachain": 2001
-                                        },
-                                        {
-                                            "generalKey": "0x0001"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "asset": "14",
-                        "source": [
-                            "2110"
-                        ]
-                    },
-                    {
-                        "paraID": 2001,
-                        "relayChain": "kusama",
-                        "nativeChainID": "bifrost",
-                        "symbol": "vBNC",
-                        "decimals": 12,
-                        "interiorType": "x2",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            {
-                                "parachain": 2001
-                            },
-                            {
-                                "generalKey": "0x0101"
-                            }
-                        ],
-                        "xcmV1MultiLocationByte": "0x010200451f06080101",
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "x2": [
-                                        {
-                                            "parachain": 2001
-                                        },
-                                        {
-                                            "generalKey": "0x0101"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "asset": "23",
-                        "source": [
-                            "2110"
-                        ]
-                    },
-                    {
-                        "paraID": 2001,
-                        "relayChain": "kusama",
-                        "nativeChainID": "bifrost",
-                        "symbol": "vKSM",
-                        "decimals": 12,
-                        "interiorType": "x2",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            {
-                                "parachain": 2001
-                            },
-                            {
-                                "generalKey": "0x0104"
-                            }
-                        ],
-                        "xcmV1MultiLocationByte": "0x010200451f06080104",
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "x2": [
-                                        {
-                                            "parachain": 2001
-                                        },
-                                        {
-                                            "generalKey": "0x0104"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "asset": "15",
-                        "source": [
-                            "2110"
-                        ]
-                    },
-                    {
-                        "paraID": 2001,
-                        "relayChain": "kusama",
-                        "nativeChainID": "bifrost",
                         "symbol": "ZLK",
                         "decimals": 18,
                         "interiorType": "x2",
@@ -24816,7 +27732,6 @@
                                 "generalKey": "0x0207"
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x010200451f06080207",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -24855,7 +27770,6 @@
                                 "generalKey": "0x0404"
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x010200451f06080404",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -24877,6 +27791,158 @@
                         ]
                     },
                     {
+                        "paraID": 2001,
+                        "relayChain": "kusama",
+                        "nativeChainID": "bifrost",
+                        "symbol": "BNC",
+                        "decimals": 12,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "kusama"
+                            },
+                            {
+                                "parachain": 2001
+                            },
+                            {
+                                "generalKey": "0x0001"
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2001
+                                        },
+                                        {
+                                            "generalKey": "0x0001"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "14",
+                        "source": [
+                            "2110"
+                        ]
+                    },
+                    {
+                        "paraID": 2001,
+                        "relayChain": "kusama",
+                        "nativeChainID": "bifrost",
+                        "symbol": "vKSM",
+                        "decimals": 12,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "kusama"
+                            },
+                            {
+                                "parachain": 2001
+                            },
+                            {
+                                "generalKey": "0x0104"
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2001
+                                        },
+                                        {
+                                            "generalKey": "0x0104"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "15",
+                        "source": [
+                            "2110"
+                        ]
+                    },
+                    {
+                        "paraID": 2001,
+                        "relayChain": "kusama",
+                        "nativeChainID": "bifrost",
+                        "symbol": "vBNC",
+                        "decimals": 12,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "kusama"
+                            },
+                            {
+                                "parachain": 2001
+                            },
+                            {
+                                "generalKey": "0x0101"
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2001
+                                        },
+                                        {
+                                            "generalKey": "0x0101"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "23",
+                        "source": [
+                            "2110"
+                        ]
+                    },
+                    {
+                        "paraID": 2023,
+                        "relayChain": "kusama",
+                        "nativeChainID": "moonriver",
+                        "symbol": "MOVR",
+                        "decimals": 18,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "kusama"
+                            },
+                            {
+                                "parachain": 2023
+                            },
+                            {
+                                "palletInstance": 10
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2023
+                                        },
+                                        {
+                                            "palletInstance": 10
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "39",
+                        "source": [
+                            "2110"
+                        ]
+                    },
+                    {
                         "paraID": 2114,
                         "relayChain": "kusama",
                         "nativeChainID": "turing",
@@ -24891,7 +27957,6 @@
                                 "parachain": 2114
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x0101000921",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -24925,7 +27990,6 @@
                                 "generalKey": "0x0096"
                             }
                         ],
-                        "xcmV1MultiLocationByte": "0x010200252106080096",
                         "xcmV1MultiLocation": {
                             "v1": {
                                 "parents": 1,
@@ -25336,133 +28400,13 @@
                         ]
                     }
                 ]
-            },
-            {
-                "relayChain": "kusama",
-                "paraID": 2124,
-                "id": "amplitude",
-                "xcAssetCnt": "3",
-                "data": [
-                    {
-                        "paraID": 0,
-                        "relayChain": "kusama",
-                        "nativeChainID": "kusama",
-                        "symbol": "KSM",
-                        "decimals": 12,
-                        "interiorType": "here",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            "here"
-                        ],
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "here": null
-                                }
-                            }
-                        },
-                        "asset": {
-                            "XCM": "0"
-                        },
-                        "source": [
-                            "2124"
-                        ]
-                    },
-                    {
-                        "paraID": 1000,
-                        "relayChain": "kusama",
-                        "nativeChainID": "statemine",
-                        "symbol": "USDT",
-                        "decimals": 6,
-                        "interiorType": "x3",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            {
-                                "parachain": 1000
-                            },
-                            {
-                                "palletInstance": 50
-                            },
-                            {
-                                "generalIndex": 1984
-                            }
-                        ],
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "x3": [
-                                        {
-                                            "parachain": 1000
-                                        },
-                                        {
-                                            "palletInstance": 50
-                                        },
-                                        {
-                                            "generalIndex": 1984
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "asset": {
-                            "XCM": "1"
-                        },
-                        "source": [
-                            "2124"
-                        ]
-                    },
-                    {
-                        "paraID": 2124,
-                        "relayChain": "kusama",
-                        "nativeChainID": "amplitude",
-                        "symbol": "AMPE",
-                        "decimals": 12,
-                        "interiorType": "x2",
-                        "xcmV1Standardized": [
-                            {
-                                "network": "kusama"
-                            },
-                            {
-                                "parachain": 2124
-                            },
-                            {
-                                "palletInstance": 10
-                            }
-                        ],
-                        "xcmV1MultiLocation": {
-                            "v1": {
-                                "parents": 1,
-                                "interior": {
-                                    "x2": [
-                                        {
-                                            "parachain": 2124
-                                        },
-                                        {
-                                            "palletInstance": 10
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "asset": "Native",
-                        "source": [
-                            "2124"
-                        ]
-                    }
-                ]
             }
         ]
     },
     "xcmRegistry": [
         {
             "relayChain": "kusama",
-            "registryCnt": "65",
+            "registryCnt": "64",
             "data": {
                 "[{\"network\":\"kusama\"},\"here\"]": {
                     "paraID": 0,
@@ -25501,12 +28445,9 @@
                         "2088": {
                             "ForeignAsset": "3"
                         },
-                        "2114": "1",
-                        "2124": {
-                            "XCM": "0"
-                        }
+                        "2114": "1"
                     },
-                    "confidence": 9,
+                    "confidence": 8,
                     "source": [
                         2001,
                         2004,
@@ -25515,14 +28456,13 @@
                         2084,
                         2085,
                         2088,
-                        2114,
-                        2124
+                        2114
                     ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":8}]": {
                     "paraID": 1000,
                     "relayChain": "kusama",
-                    "nativeChainID": "statemine",
+                    "nativeChainID": "asset-hub-kusama",
                     "symbol": "RMRK",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -25582,7 +28522,7 @@
                 "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1984}]": {
                     "paraID": 1000,
                     "relayChain": "kusama",
-                    "nativeChainID": "statemine",
+                    "nativeChainID": "asset-hub-kusama",
                     "symbol": "USDT",
                     "decimals": 6,
                     "interiorType": "x3",
@@ -25639,12 +28579,9 @@
                         "2092": {
                             "ForeignAsset": "3"
                         },
-                        "2110": "30",
-                        "2124": {
-                            "XCM": "1"
-                        }
+                        "2110": "30"
                     },
-                    "confidence": 10,
+                    "confidence": 9,
                     "source": [
                         2000,
                         2001,
@@ -25654,14 +28591,13 @@
                         2085,
                         2088,
                         2092,
-                        2110,
-                        2124
+                        2110
                     ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":16}]": {
                     "paraID": 1000,
                     "relayChain": "kusama",
-                    "nativeChainID": "statemine",
+                    "nativeChainID": "asset-hub-kusama",
                     "symbol": "ARIS",
                     "decimals": 8,
                     "interiorType": "x3",
@@ -26052,60 +28988,6 @@
                         2001
                     ]
                 },
-                "[{\"network\":\"kusama\"},{\"parachain\":2001},[{\"generalKey\":{\"length\":2,\"data\":\"0x0404000000000000000000000000000000000000000000000000000000000000\"}}]]": {
-                    "paraID": 2001,
-                    "relayChain": "kusama",
-                    "nativeChainID": "bifrost",
-                    "symbol": "VSvsKSM",
-                    "decimals": 12,
-                    "interiorType": "x2",
-                    "xcmV1Standardized": [
-                        {
-                            "network": "kusama"
-                        },
-                        {
-                            "parachain": 2001
-                        },
-                        [
-                            {
-                                "generalKey": {
-                                    "length": 2,
-                                    "data": "0x0404000000000000000000000000000000000000000000000000000000000000"
-                                }
-                            }
-                        ]
-                    ],
-                    "xcmV1MultiLocation": {
-                        "v1": {
-                            "parents": 1,
-                            "interior": {
-                                "x2": [
-                                    {
-                                        "parachain": 2001
-                                    },
-                                    [
-                                        {
-                                            "generalKey": {
-                                                "length": 2,
-                                                "data": "0x0404000000000000000000000000000000000000000000000000000000000000"
-                                            }
-                                        }
-                                    ]
-                                ]
-                            }
-                        }
-                    },
-                    "xcContractAddress": {},
-                    "xcCurrencyID": {
-                        "2001": {
-                            "VSToken": "KSM"
-                        }
-                    },
-                    "confidence": 1,
-                    "source": [
-                        2001
-                    ]
-                },
                 "[{\"network\":\"kusama\"},{\"parachain\":2007}]": {
                     "paraID": 2007,
                     "relayChain": "kusama",
@@ -26298,9 +29180,10 @@
                         "2092": {
                             "ForeignAsset": "4"
                         },
+                        "2110": "39",
                         "2114": "9"
                     },
-                    "confidence": 9,
+                    "confidence": 10,
                     "source": [
                         2000,
                         2001,
@@ -26310,6 +29193,7 @@
                         2084,
                         2085,
                         2092,
+                        2110,
                         2114
                     ]
                 },
@@ -27153,7 +30037,7 @@
                 "[{\"network\":\"kusama\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":223}]": {
                     "paraID": 1000,
                     "relayChain": "kusama",
-                    "nativeChainID": "statemine",
+                    "nativeChainID": "asset-hub-kusama",
                     "symbol": "BILL",
                     "decimals": 8,
                     "interiorType": "x3",
@@ -27800,6 +30684,60 @@
                         2084
                     ]
                 },
+                "[{\"network\":\"kusama\"},{\"parachain\":2001},[{\"generalKey\":{\"length\":2,\"data\":\"0x0404000000000000000000000000000000000000000000000000000000000000\"}}]]": {
+                    "paraID": 2001,
+                    "relayChain": "kusama",
+                    "nativeChainID": "bifrost",
+                    "symbol": "VSvsKSM",
+                    "decimals": 12,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "kusama"
+                        },
+                        {
+                            "parachain": 2001
+                        },
+                        [
+                            {
+                                "generalKey": {
+                                    "length": 2,
+                                    "data": "0x0404000000000000000000000000000000000000000000000000000000000000"
+                                }
+                            }
+                        ]
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2001
+                                    },
+                                    [
+                                        {
+                                            "generalKey": {
+                                                "length": 2,
+                                                "data": "0x0404000000000000000000000000000000000000000000000000000000000000"
+                                            }
+                                        }
+                                    ]
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2001": {
+                            "VSToken": "KSM"
+                        }
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2001
+                    ]
+                },
                 "[{\"network\":\"kusama\"},{\"parachain\":2001},[{\"generalKey\":{\"length\":2,\"data\":\"0x0001000000000000000000000000000000000000000000000000000000000000\"}}]]": {
                     "paraID": 2001,
                     "relayChain": "kusama",
@@ -28299,14 +31237,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "6",
+                    "source": [
+                        2114
+                    ],
                     "xcCurrencyID": {
                         "2114": "6"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2114
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2087}]": {
                     "paraID": 2087,
@@ -28448,7 +31387,6 @@
                             "generalKey": "0x0096"
                         }
                     ],
-                    "xcmV1MultiLocationByte": "0x010200252106080096",
                     "xcmV1MultiLocation": {
                         "v1": {
                             "parents": 1,
@@ -28464,58 +31402,14 @@
                             }
                         }
                     },
-                    "asset": "11",
-                    "source": [
-                        2110
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2110": "11"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
-                },
-                "[{\"network\":\"kusama\"},{\"parachain\":2124},{\"palletInstance\":10}]": {
-                    "paraID": 2124,
-                    "relayChain": "kusama",
-                    "nativeChainID": "amplitude",
-                    "symbol": "AMPE",
-                    "decimals": 12,
-                    "interiorType": "x2",
-                    "xcmV1Standardized": [
-                        {
-                            "network": "kusama"
-                        },
-                        {
-                            "parachain": 2124
-                        },
-                        {
-                            "palletInstance": 10
-                        }
-                    ],
-                    "xcmV1MultiLocation": {
-                        "v1": {
-                            "parents": 1,
-                            "interior": {
-                                "x2": [
-                                    {
-                                        "parachain": 2124
-                                    },
-                                    {
-                                        "palletInstance": 10
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "asset": "Native",
+                    "confidence": 1,
                     "source": [
-                        2124
-                    ],
-                    "xcCurrencyID": {
-                        "2124": "Native"
-                    },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                        2110
+                    ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2125},{\"generalIndex\":0}]": {
                     "paraID": 2125,
@@ -28807,7 +31701,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1337}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "USDC",
                     "decimals": 6,
                     "interiorType": "x3",
@@ -28882,7 +31776,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1984}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "USDT",
                     "decimals": 6,
                     "interiorType": "x3",
@@ -28961,7 +31855,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":23}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "PINK",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -29030,7 +31924,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":100}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "WETHah",
                     "decimals": 18,
                     "interiorType": "x3",
@@ -29080,7 +31974,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":21}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "WBTC",
                     "decimals": 8,
                     "interiorType": "x3",
@@ -29130,7 +32024,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":17}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "WIFD",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -29180,7 +32074,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":30}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "DED",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -29234,7 +32128,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1024}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "NCTR",
                     "decimals": 18,
                     "interiorType": "x3",
@@ -29284,7 +32178,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":42069}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "STINK",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -29334,7 +32228,7 @@
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":31337}]": {
                     "paraID": 1000,
                     "relayChain": "polkadot",
-                    "nativeChainID": "statemint",
+                    "nativeChainID": "asset-hub-polkadot",
                     "symbol": "WUD",
                     "decimals": 10,
                     "interiorType": "x3",
@@ -33148,15 +36042,14 @@
                             }
                         }
                     },
-                    "asset": "1",
-                    "source": [
-                        2043
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2043
+                    ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,

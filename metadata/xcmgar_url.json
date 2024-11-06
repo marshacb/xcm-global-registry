@@ -12,7 +12,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "33",
+                "assetCnt": "352",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/polkadot/polkadot_1000_assets.json"
             },
             {
@@ -182,7 +182,7 @@
                 "relayChain": "kusama",
                 "paraID": 1000,
                 "id": "asset-hub-kusama",
-                "assetCnt": "161",
+                "assetCnt": "180",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/kusama/kusama_1000_assets.json"
             },
             {
@@ -343,7 +343,7 @@
                 "relayChain": "kusama",
                 "paraID": 2110,
                 "id": "mangata",
-                "assetCnt": "39",
+                "assetCnt": "35",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/kusama/kusama_2110_assets.json"
             },
             {
@@ -580,7 +580,7 @@
                 "relayChain": "kusama",
                 "paraID": 2110,
                 "id": "mangata",
-                "xcAssetCnt": "9",
+                "xcAssetCnt": "10",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcAssets/kusama/kusama_2110_xcAssets.json"
             },
             {
@@ -589,20 +589,13 @@
                 "id": "turing",
                 "xcAssetCnt": "11",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcAssets/kusama/kusama_2114_xcAssets.json"
-            },
-            {
-                "relayChain": "kusama",
-                "paraID": 2124,
-                "id": "amplitude",
-                "xcAssetCnt": "3",
-                "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcAssets/kusama/kusama_2124_xcAssets.json"
             }
         ]
     },
     "xcmRegistry": [
         {
             "relayChain": "kusama",
-            "registryCnt": "65",
+            "registryCnt": "64",
             "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcmRegistry/kusama_xcmRegistry.json"
         },
         {
