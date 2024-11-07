@@ -91,6 +91,15 @@
     },
     {
         "asset": {
+            "Erc20": "0xa7fb00459f5896c3bd4df97870b44e868ae663d7"
+        },
+        "name": "Jito Staked SOL",
+        "symbol": "JitoSOL",
+        "decimals": 9,
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02a7fb00459f5896c3bd4df97870b44e868ae663d7\"}]"
+    },
+    {
+        "asset": {
             "Erc20": "0xaf6997a70feb868df863d5380c3ab93da4297edc"
         },
         "name": "Shiba Inu (Portal)",

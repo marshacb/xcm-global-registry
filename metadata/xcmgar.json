@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "352",
+                "assetCnt": "353",
                 "data": [
                     {
                         "asset": {
@@ -2483,6 +2483,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "50000020"
+                        },
+                        "name": "United States",
+                        "symbol": "USA",
+                        "decimals": 12,
+                        "currencyID": "50000020"
+                    },
+                    {
+                        "asset": {
                             "Token": "51"
                         },
                         "name": "JAMA",
@@ -3224,7 +3233,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2000,
                 "id": "acala",
-                "assetCnt": "40",
+                "assetCnt": "41",
                 "data": [
                     {
                         "asset": {
@@ -3315,6 +3324,15 @@
                         "symbol": "CRUet",
                         "decimals": 18,
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02a72206fdf839c785b3073870013f2fd57ba10b63\"}]"
+                    },
+                    {
+                        "asset": {
+                            "Erc20": "0xa7fb00459f5896c3bd4df97870b44e868ae663d7"
+                        },
+                        "name": "Jito Staked SOL",
+                        "symbol": "JitoSOL",
+                        "decimals": 9,
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02a7fb00459f5896c3bd4df97870b44e868ae663d7\"}]"
                     },
                     {
                         "asset": {
@@ -6979,7 +6997,9 @@
                         "currencyID": {
                             "Stellar": "StellarNative"
                         },
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -7118,7 +7138,9 @@
                                 }
                             }
                         },
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -7142,7 +7164,9 @@
                                 }
                             }
                         },
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -12216,7 +12240,9 @@
                         "name": "TUR",
                         "symbol": "TUR",
                         "decimals": 10,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -12381,8 +12407,7 @@
                         },
                         "name": "AMPE",
                         "symbol": "AMPE",
-                        "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2124},{\"palletInstance\":10}]"
+                        "decimals": 12
                     }
                 ]
             },
@@ -31237,15 +31262,14 @@
                             }
                         }
                     },
-                    "asset": "6",
-                    "source": [
-                        2114
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2114": "6"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2114
+                    ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2087}]": {
                     "paraID": 2087,
@@ -33296,19 +33320,16 @@
                             }
                         }
                     },
-                    "asset": {
-                        "XCM": "12"
-                    },
-                    "source": [
-                        2094
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2094": {
                             "XCM": "12"
                         }
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2094
+                    ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x3225edce8ad30ae282e62fa32e7418e4b9cf197b\"}}]": {
                     "paraID": 2004,
@@ -33355,19 +33376,16 @@
                             }
                         }
                     },
-                    "asset": {
-                        "XCM": "4"
-                    },
-                    "source": [
-                        2094
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2094": {
                             "XCM": "4"
                         }
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2094
+                    ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2006}]": {
                     "paraID": 2006,

@@ -2456,6 +2456,15 @@
     },
     {
         "asset": {
+            "Token": "50000020"
+        },
+        "name": "United States",
+        "symbol": "USA",
+        "decimals": 12,
+        "currencyID": "50000020"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",

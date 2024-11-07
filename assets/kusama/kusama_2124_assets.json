@@ -5,7 +5,6 @@
         },
         "name": "AMPE",
         "symbol": "AMPE",
-        "decimals": 12,
-        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2124},{\"palletInstance\":10}]"
+        "decimals": 12
     }
 ]
