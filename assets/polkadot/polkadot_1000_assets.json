@@ -87,10 +87,7 @@
         "name": "Apillon",
         "symbol": "NCTR",
         "decimals": 18,
-        "currencyID": "1024",
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":1024}]",
-        "inferred": true,
-        "confidence": 0
+        "currencyID": "1024"
     },
     {
         "asset": {
@@ -300,10 +297,7 @@
         "name": "dog wif dots",
         "symbol": "WIFD",
         "decimals": 10,
-        "currencyID": "17",
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":17}]",
-        "inferred": true,
-        "confidence": 0
+        "currencyID": "17"
     },
     {
         "asset": {
@@ -2170,10 +2164,7 @@
         "name": "STINK",
         "symbol": "STINK",
         "decimals": 10,
-        "currencyID": "42069",
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":42069}]",
-        "inferred": true,
-        "confidence": 0
+        "currencyID": "42069"
     },
     {
         "asset": {
