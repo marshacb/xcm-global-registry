@@ -1924,10 +1924,7 @@
         "name": "DED",
         "symbol": "DED",
         "decimals": 10,
-        "currencyID": "30",
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":30}]",
-        "inferred": true,
-        "confidence": 0
+        "currencyID": "30"
     },
     {
         "asset": {
