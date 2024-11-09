@@ -2465,6 +2465,15 @@
     },
     {
         "asset": {
+            "Token": "50000021"
+        },
+        "name": "Lua Cheia",
+        "symbol": "LC",
+        "decimals": 12,
+        "currencyID": "50000021"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
