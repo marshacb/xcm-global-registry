@@ -2483,6 +2483,33 @@
     },
     {
         "asset": {
+            "Token": "50000024"
+        },
+        "name": "God Bless America",
+        "symbol": "GBA",
+        "decimals": 12,
+        "currencyID": "50000024"
+    },
+    {
+        "asset": {
+            "Token": "50000025"
+        },
+        "name": "PIG MEME",
+        "symbol": "PIG",
+        "decimals": 12,
+        "currencyID": "50000025"
+    },
+    {
+        "asset": {
+            "Token": "50000026"
+        },
+        "name": "DotIsAlive",
+        "symbol": "DIA",
+        "decimals": 12,
+        "currencyID": "50000026"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
