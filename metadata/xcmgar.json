@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "360",
+                "assetCnt": "361",
                 "data": [
                     {
                         "asset": {
@@ -2552,6 +2552,15 @@
                         "symbol": "$FADS",
                         "decimals": 12,
                         "currencyID": "50000027"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000028"
+                        },
+                        "name": "AIWeb3",
+                        "symbol": "LOVA",
+                        "decimals": 12,
+                        "currencyID": "50000028"
                     },
                     {
                         "asset": {
@@ -6958,9 +6967,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -10709,9 +10716,7 @@
                         "name": "TEER",
                         "symbol": "TEER",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2015},{\"generalKey\":\"0x54454552\"}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2015},{\"generalKey\":\"0x54454552\"}]"
                     }
                 ]
             },

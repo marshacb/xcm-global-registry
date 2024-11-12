@@ -2528,6 +2528,15 @@
     },
     {
         "asset": {
+            "Token": "50000028"
+        },
+        "name": "AIWeb3",
+        "symbol": "LOVA",
+        "decimals": 12,
+        "currencyID": "50000028"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
