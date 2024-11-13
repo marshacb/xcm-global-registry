@@ -2546,6 +2546,15 @@
     },
     {
         "asset": {
+            "Token": "50000030"
+        },
+        "name": "TT2",
+        "symbol": "TT2",
+        "decimals": 12,
+        "currencyID": "50000030"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
