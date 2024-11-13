@@ -2537,6 +2537,15 @@
     },
     {
         "asset": {
+            "Token": "50000029"
+        },
+        "name": "OXYGEN",
+        "symbol": "CO3",
+        "decimals": 12,
+        "currencyID": "50000029"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
