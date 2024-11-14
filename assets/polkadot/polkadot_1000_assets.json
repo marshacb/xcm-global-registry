@@ -2555,6 +2555,60 @@
     },
     {
         "asset": {
+            "Token": "50000031"
+        },
+        "name": "TT3",
+        "symbol": "TT3",
+        "decimals": 12,
+        "currencyID": "50000031"
+    },
+    {
+        "asset": {
+            "Token": "50000032"
+        },
+        "name": "TT4",
+        "symbol": "TT4",
+        "decimals": 12,
+        "currencyID": "50000032"
+    },
+    {
+        "asset": {
+            "Token": "50000033"
+        },
+        "name": "TT5",
+        "symbol": "TT5",
+        "decimals": 12,
+        "currencyID": "50000033"
+    },
+    {
+        "asset": {
+            "Token": "50000034"
+        },
+        "name": "TT6",
+        "symbol": "TT6",
+        "decimals": 12,
+        "currencyID": "50000034"
+    },
+    {
+        "asset": {
+            "Token": "50000035"
+        },
+        "name": "adotlex",
+        "symbol": "ALEX",
+        "decimals": 12,
+        "currencyID": "50000035"
+    },
+    {
+        "asset": {
+            "Token": "50000036"
+        },
+        "name": "RickRoll",
+        "symbol": "RICK",
+        "decimals": 12,
+        "currencyID": "50000036"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
