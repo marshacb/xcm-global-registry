@@ -2609,6 +2609,24 @@
     },
     {
         "asset": {
+            "Token": "50000037"
+        },
+        "name": "United Kingdom",
+        "symbol": "UK",
+        "decimals": 12,
+        "currencyID": "50000037"
+    },
+    {
+        "asset": {
+            "Token": "50000038"
+        },
+        "name": "Lester",
+        "symbol": "Lester",
+        "decimals": 10,
+        "currencyID": "50000038"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
