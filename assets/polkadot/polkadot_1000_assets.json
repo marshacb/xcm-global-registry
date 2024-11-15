@@ -2627,6 +2627,15 @@
     },
     {
         "asset": {
+            "Token": "50000039"
+        },
+        "name": "LuaCheia",
+        "symbol": "LuaCh",
+        "decimals": 12,
+        "currencyID": "50000039"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
