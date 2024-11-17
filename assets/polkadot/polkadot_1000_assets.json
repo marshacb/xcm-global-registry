@@ -2636,6 +2636,15 @@
     },
     {
         "asset": {
+            "Token": "50000040"
+        },
+        "name": "HappyPaisa",
+        "symbol": "HYPS",
+        "decimals": 10,
+        "currencyID": "50000040"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
