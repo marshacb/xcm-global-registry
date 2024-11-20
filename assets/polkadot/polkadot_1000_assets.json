@@ -2645,6 +2645,15 @@
     },
     {
         "asset": {
+            "Token": "50000041"
+        },
+        "name": "Water",
+        "symbol": "water",
+        "decimals": 12,
+        "currencyID": "50000041"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
