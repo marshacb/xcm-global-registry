@@ -592,7 +592,8 @@
         },
         "name": "Voucher BNC",
         "symbol": "vBNC",
-        "decimals": 12
+        "decimals": 12,
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2030},[{\"generalKey\":{\"length\":2,\"data\":\"0x0101000000000000000000000000000000000000000000000000000000000000\"}}]]"
     },
     {
         "asset": {

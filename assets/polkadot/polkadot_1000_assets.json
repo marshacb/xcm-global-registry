@@ -2654,6 +2654,24 @@
     },
     {
         "asset": {
+            "Token": "50000042"
+        },
+        "name": "CHILLGUY",
+        "symbol": "CHILL",
+        "decimals": 12,
+        "currencyID": "50000042"
+    },
+    {
+        "asset": {
+            "Token": "50000043"
+        },
+        "name": "Hydratest",
+        "symbol": "HDXt",
+        "decimals": 12,
+        "currencyID": "50000043"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
