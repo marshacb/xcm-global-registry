@@ -2672,6 +2672,24 @@
     },
     {
         "asset": {
+            "Token": "50000044"
+        },
+        "name": "Honey Badger",
+        "symbol": "HYB",
+        "decimals": 12,
+        "currencyID": "50000044"
+    },
+    {
+        "asset": {
+            "Token": "50000045"
+        },
+        "name": "PEPA",
+        "symbol": "PEPA",
+        "decimals": 12,
+        "currencyID": "50000045"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
