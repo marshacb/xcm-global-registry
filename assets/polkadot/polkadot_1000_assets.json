@@ -2690,6 +2690,15 @@
     },
     {
         "asset": {
+            "Token": "50000046"
+        },
+        "name": "Bill is Mad",
+        "symbol": "BMAD",
+        "decimals": 10,
+        "currencyID": "50000046"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
