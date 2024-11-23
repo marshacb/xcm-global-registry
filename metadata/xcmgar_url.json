@@ -12,7 +12,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "379",
+                "assetCnt": "380",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/polkadot/polkadot_1000_assets.json"
             },
             {
@@ -182,7 +182,7 @@
                 "relayChain": "kusama",
                 "paraID": 1000,
                 "id": "asset-hub-kusama",
-                "assetCnt": "181",
+                "assetCnt": "182",
                 "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//assets/kusama/kusama_1000_assets.json"
             },
             {
@@ -600,7 +600,7 @@
         },
         {
             "relayChain": "polkadot",
-            "registryCnt": "102",
+            "registryCnt": "92",
             "url": "https://cdn.jsdelivr.net/gh/colorfulnotion/xcm-global-registry//xcmRegistry/polkadot_xcmRegistry.json"
         }
     ]

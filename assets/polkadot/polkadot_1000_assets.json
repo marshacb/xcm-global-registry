@@ -2699,6 +2699,15 @@
     },
     {
         "asset": {
+            "Token": "50000047"
+        },
+        "name": "Deez Nuts",
+        "symbol": "DEEZ",
+        "decimals": 12,
+        "currencyID": "50000047"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
