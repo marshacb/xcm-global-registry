@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "381",
+                "assetCnt": "382",
                 "data": [
                     {
                         "asset": {
@@ -2741,6 +2741,15 @@
                         "symbol": "NOFAP",
                         "decimals": 12,
                         "currencyID": "50000048"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000049"
+                        },
+                        "name": "Ekuke",
+                        "symbol": "Ekuke",
+                        "decimals": 12,
+                        "currencyID": "50000049"
                     },
                     {
                         "asset": {
@@ -7148,9 +7157,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -36209,14 +36216,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "1",
+                    "source": [
+                        2043
+                    ],
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2043
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,

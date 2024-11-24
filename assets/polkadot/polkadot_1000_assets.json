@@ -2717,6 +2717,15 @@
     },
     {
         "asset": {
+            "Token": "50000049"
+        },
+        "name": "Ekuke",
+        "symbol": "Ekuke",
+        "decimals": 12,
+        "currencyID": "50000049"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
