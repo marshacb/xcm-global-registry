@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "380",
+                "assetCnt": "381",
                 "data": [
                     {
                         "asset": {
@@ -2732,6 +2732,15 @@
                         "symbol": "DEEZ",
                         "decimals": 12,
                         "currencyID": "50000047"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000048"
+                        },
+                        "name": "1Milion NoFAP",
+                        "symbol": "NOFAP",
+                        "decimals": 12,
+                        "currencyID": "50000048"
                     },
                     {
                         "asset": {
@@ -11745,9 +11754,7 @@
                         "name": "PICA",
                         "symbol": "PICA",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2087}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2087}]"
                     }
                 ]
             },

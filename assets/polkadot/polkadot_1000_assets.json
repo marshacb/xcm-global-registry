@@ -2708,6 +2708,15 @@
     },
     {
         "asset": {
+            "Token": "50000048"
+        },
+        "name": "1Milion NoFAP",
+        "symbol": "NOFAP",
+        "decimals": 12,
+        "currencyID": "50000048"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
