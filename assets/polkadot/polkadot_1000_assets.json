@@ -2726,6 +2726,15 @@
     },
     {
         "asset": {
+            "Token": "50000050"
+        },
+        "name": "TTLedger",
+        "symbol": "TTLedg",
+        "decimals": 16,
+        "currencyID": "50000050"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
