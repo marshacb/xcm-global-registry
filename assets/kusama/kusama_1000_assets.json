@@ -1142,6 +1142,15 @@
     },
     {
         "asset": {
+            "Token": "50000002"
+        },
+        "name": "decent",
+        "symbol": "dUSD",
+        "decimals": 6,
+        "currencyID": "50000002"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "STONE",

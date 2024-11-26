@@ -7686,7 +7686,7 @@
                 "relayChain": "kusama",
                 "paraID": 1000,
                 "id": "asset-hub-kusama",
-                "assetCnt": "182",
+                "assetCnt": "183",
                 "data": [
                     {
                         "asset": {
@@ -8828,6 +8828,15 @@
                         "symbol": "YSBC",
                         "decimals": 6,
                         "currencyID": "50000001"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000002"
+                        },
+                        "name": "decent",
+                        "symbol": "dUSD",
+                        "decimals": 6,
+                        "currencyID": "50000002"
                     },
                     {
                         "asset": {
