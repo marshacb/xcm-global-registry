@@ -131,6 +131,46 @@
     },
     {
         "asset": {
+            "Token": "1001"
+        },
+        "name": "aDOT",
+        "symbol": "aDOT",
+        "decimals": 10,
+        "currencyID": "1001",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02639ec01313c8775fae74f2dad1118c8a8a86da\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1002"
+        },
+        "name": "aUSDT",
+        "symbol": "aUSDT",
+        "decimals": 6,
+        "currencyID": "1002",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0xc64980e4eaf9a1151bd21712b9946b81e41e2b92\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1003"
+        },
+        "name": "aUSDC",
+        "symbol": "aUSDC",
+        "decimals": 6,
+        "currencyID": "1003",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x2ec4884088d84e5c2970a034732e5209b0acfa93\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1004"
+        },
+        "name": "aWBTC",
+        "symbol": "aWBTC",
+        "decimals": 8,
+        "currencyID": "1004",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02759d14d0d4f452b9c76f5a230750e8857d36f2\"}}]"
+    },
+    {
+        "asset": {
             "Token": "101"
         },
         "name": "2-Pool",

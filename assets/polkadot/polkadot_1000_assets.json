@@ -2735,6 +2735,33 @@
     },
     {
         "asset": {
+            "Token": "50000051"
+        },
+        "name": "FomoKing",
+        "symbol": "FOMO",
+        "decimals": 12,
+        "currencyID": "50000051"
+    },
+    {
+        "asset": {
+            "Token": "50000052"
+        },
+        "name": "LuxCharm",
+        "symbol": "LUX",
+        "decimals": 12,
+        "currencyID": "50000052"
+    },
+    {
+        "asset": {
+            "Token": "50000053"
+        },
+        "name": "Here You Go",
+        "symbol": "HERE",
+        "decimals": 12,
+        "currencyID": "50000053"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",

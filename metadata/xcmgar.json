@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "383",
+                "assetCnt": "386",
                 "data": [
                     {
                         "asset": {
@@ -2759,6 +2759,33 @@
                         "symbol": "TTLedg",
                         "decimals": 16,
                         "currencyID": "50000050"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000051"
+                        },
+                        "name": "FomoKing",
+                        "symbol": "FOMO",
+                        "decimals": 12,
+                        "currencyID": "50000051"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000052"
+                        },
+                        "name": "LuxCharm",
+                        "symbol": "LUX",
+                        "decimals": 12,
+                        "currencyID": "50000052"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000053"
+                        },
+                        "name": "Here You Go",
+                        "symbol": "HERE",
+                        "decimals": 12,
+                        "currencyID": "50000053"
                     },
                     {
                         "asset": {
@@ -6457,7 +6484,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2034,
                 "id": "hydra",
-                "assetCnt": "47",
+                "assetCnt": "51",
                 "data": [
                     {
                         "asset": {
@@ -6588,6 +6615,46 @@
                         "decimals": 18,
                         "currencyID": "1000626",
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xa3931d71877c0e7a3148cb7eb4463524fec27fbd\"}}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1001"
+                        },
+                        "name": "aDOT",
+                        "symbol": "aDOT",
+                        "decimals": 10,
+                        "currencyID": "1001",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02639ec01313c8775fae74f2dad1118c8a8a86da\"}}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1002"
+                        },
+                        "name": "aUSDT",
+                        "symbol": "aUSDT",
+                        "decimals": 6,
+                        "currencyID": "1002",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0xc64980e4eaf9a1151bd21712b9946b81e41e2b92\"}}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1003"
+                        },
+                        "name": "aUSDC",
+                        "symbol": "aUSDC",
+                        "decimals": 6,
+                        "currencyID": "1003",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x2ec4884088d84e5c2970a034732e5209b0acfa93\"}}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1004"
+                        },
+                        "name": "aWBTC",
+                        "symbol": "aWBTC",
+                        "decimals": 8,
+                        "currencyID": "1004",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02759d14d0d4f452b9c76f5a230750e8857d36f2\"}}]"
                     },
                     {
                         "asset": {
@@ -7166,9 +7233,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -10944,7 +11009,9 @@
                         "name": "TEER",
                         "symbol": "TEER",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2015},{\"generalKey\":\"0x54454552\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2015},{\"generalKey\":\"0x54454552\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -11760,7 +11827,9 @@
                         "name": "HKO",
                         "symbol": "HKO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2085},{\"generalKey\":\"0x484b4f\"}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2085},{\"generalKey\":\"0x484b4f\"}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -12564,7 +12633,9 @@
                         "name": "TUR",
                         "symbol": "TUR",
                         "decimals": 10,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -19478,7 +19549,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2034,
                 "id": "hydra",
-                "xcAssetCnt": "41",
+                "xcAssetCnt": "45",
                 "data": [
                     {
                         "paraID": 0,
@@ -20774,6 +20845,182 @@
                             }
                         },
                         "asset": "17",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2034,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "hydra",
+                        "symbol": "aDOT",
+                        "decimals": 10,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2034
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0x02639ec01313c8775fae74f2dad1118c8a8a86da"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2034
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0x02639ec01313c8775fae74f2dad1118c8a8a86da"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1001",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2034,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "hydra",
+                        "symbol": "aUSDT",
+                        "decimals": 6,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2034
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0xc64980e4eaf9a1151bd21712b9946b81e41e2b92"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2034
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0xc64980e4eaf9a1151bd21712b9946b81e41e2b92"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1002",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2034,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "hydra",
+                        "symbol": "aUSDC",
+                        "decimals": 6,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2034
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0x2ec4884088d84e5c2970a034732e5209b0acfa93"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2034
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0x2ec4884088d84e5c2970a034732e5209b0acfa93"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1003",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2034,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "hydra",
+                        "symbol": "aWBTC",
+                        "decimals": 8,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2034
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0x02759d14d0d4f452b9c76f5a230750e8857d36f2"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2034
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0x02759d14d0d4f452b9c76f5a230750e8857d36f2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1004",
                         "source": [
                             "2034"
                         ]
@@ -31744,19 +31991,18 @@
                             }
                         }
                     },
-                    "asset": "1000",
-                    "source": [
-                        2085,
-                        2092
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2085": "1000",
                         "2092": {
                             "ForeignAsset": "6"
                         }
                     },
-                    "xcContractAddress": {},
-                    "confidence": 2
+                    "confidence": 2,
+                    "source": [
+                        2085,
+                        2092
+                    ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2085},{\"generalKey\":\"0x734b534d\"}]": {
                     "paraID": 2085,
@@ -31791,15 +32037,14 @@
                             }
                         }
                     },
-                    "asset": "6",
-                    "source": [
-                        2114
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2114": "6"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2114
+                    ]
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2087}]": {
                     "paraID": 2087,
@@ -32013,7 +32258,7 @@
         },
         {
             "relayChain": "polkadot",
-            "registryCnt": "102",
+            "registryCnt": "106",
             "data": {
                 "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\"}}]": {
                     "paraID": 0,
@@ -36595,6 +36840,198 @@
                         2094
                     ]
                 },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02639ec01313c8775fae74f2dad1118c8a8a86da\"}}]": {
+                    "paraID": 2034,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "hydra",
+                    "symbol": "aDOT",
+                    "decimals": 10,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2034
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x02639ec01313c8775fae74f2dad1118c8a8a86da"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2034
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0x02639ec01313c8775fae74f2dad1118c8a8a86da"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1001"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0xc64980e4eaf9a1151bd21712b9946b81e41e2b92\"}}]": {
+                    "paraID": 2034,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "hydra",
+                    "symbol": "aUSDT",
+                    "decimals": 6,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2034
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0xc64980e4eaf9a1151bd21712b9946b81e41e2b92"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2034
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0xc64980e4eaf9a1151bd21712b9946b81e41e2b92"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1002"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x2ec4884088d84e5c2970a034732e5209b0acfa93\"}}]": {
+                    "paraID": 2034,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "hydra",
+                    "symbol": "aUSDC",
+                    "decimals": 6,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2034
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x2ec4884088d84e5c2970a034732e5209b0acfa93"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2034
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0x2ec4884088d84e5c2970a034732e5209b0acfa93"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1003"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02759d14d0d4f452b9c76f5a230750e8857d36f2\"}}]": {
+                    "paraID": 2034,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "hydra",
+                    "symbol": "aWBTC",
+                    "decimals": 8,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2034
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x02759d14d0d4f452b9c76f5a230750e8857d36f2"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2034
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0x02759d14d0d4f452b9c76f5a230750e8857d36f2"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1004"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2035}]": {
                     "paraID": 2035,
                     "relayChain": "polkadot",
@@ -36812,14 +37249,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "1",
+                    "source": [
+                        2043
+                    ],
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2043
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,
