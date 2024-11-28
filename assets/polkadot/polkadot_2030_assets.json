@@ -49,6 +49,14 @@
     },
     {
         "asset": {
+            "BLP": "6"
+        },
+        "name": "Bifrost Stable Pool Token 6",
+        "symbol": "BLP6",
+        "decimals": 12
+    },
+    {
+        "asset": {
             "Native": "BNC"
         },
         "name": "Bifrost Native Token",
