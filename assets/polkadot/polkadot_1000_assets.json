@@ -2762,6 +2762,15 @@
     },
     {
         "asset": {
+            "Token": "50000054"
+        },
+        "name": "Polkadot Hungary",
+        "symbol": "PHC",
+        "decimals": 12,
+        "currencyID": "50000054"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
