@@ -2789,6 +2789,24 @@
     },
     {
         "asset": {
+            "Token": "50000057"
+        },
+        "name": "SPAM GUY",
+        "symbol": "SPAM",
+        "decimals": 12,
+        "currencyID": "50000057"
+    },
+    {
+        "asset": {
+            "Token": "50000058"
+        },
+        "name": "G Token",
+        "symbol": "GTOKEN",
+        "decimals": 18,
+        "currencyID": "50000058"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
