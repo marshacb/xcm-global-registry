@@ -30,6 +30,51 @@
         "paraID": 1000,
         "relayChain": "polkadot",
         "nativeChainID": "asset-hub-polkadot",
+        "symbol": "GAME",
+        "decimals": 10,
+        "interiorType": "x3",
+        "xcmV1Standardized": [
+            {
+                "network": "polkadot"
+            },
+            {
+                "parachain": 1000
+            },
+            {
+                "palletInstance": 50
+            },
+            {
+                "generalIndex": 555
+            }
+        ],
+        "xcmV1MultiLocation": {
+            "v1": {
+                "parents": 1,
+                "interior": {
+                    "x3": [
+                        {
+                            "parachain": 1000
+                        },
+                        {
+                            "palletInstance": 50
+                        },
+                        {
+                            "generalIndex": 555
+                        }
+                    ]
+                }
+            }
+        },
+        "asset": "18446744073709551641",
+        "contractAddress": "0xffffffff00000000000000010000000000000019",
+        "source": [
+            "2006"
+        ]
+    },
+    {
+        "paraID": 1000,
+        "relayChain": "polkadot",
+        "nativeChainID": "asset-hub-polkadot",
         "symbol": "USDC",
         "decimals": 6,
         "interiorType": "x3",

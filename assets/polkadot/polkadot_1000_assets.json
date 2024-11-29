@@ -2771,6 +2771,24 @@
     },
     {
         "asset": {
+            "Token": "50000055"
+        },
+        "name": "TestTestTest",
+        "symbol": "IGNORE",
+        "decimals": 12,
+        "currencyID": "50000055"
+    },
+    {
+        "asset": {
+            "Token": "50000056"
+        },
+        "name": "Clownshow",
+        "symbol": "CLOWNS",
+        "decimals": 12,
+        "currencyID": "50000056"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
@@ -2845,10 +2863,13 @@
         "asset": {
             "Token": "555"
         },
-        "name": "GAME",
+        "name": "GameDAO",
         "symbol": "GAME",
         "decimals": 10,
-        "currencyID": "555"
+        "currencyID": "555",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]",
+        "inferred": true,
+        "confidence": 0
     },
     {
         "asset": {

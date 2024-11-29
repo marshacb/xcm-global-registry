@@ -422,6 +422,16 @@
     },
     {
         "asset": {
+            "Token": "18446744073709551641"
+        },
+        "name": "GAME",
+        "symbol": "GAME",
+        "decimals": 10,
+        "currencyID": "18446744073709551641",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]"
+    },
+    {
+        "asset": {
             "Token": "340282366920938463463374607431768211455"
         },
         "name": "Polkadot",

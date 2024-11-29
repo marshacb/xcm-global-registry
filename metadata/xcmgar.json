@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "387",
+                "assetCnt": "389",
                 "data": [
                     {
                         "asset": {
@@ -2798,6 +2798,24 @@
                     },
                     {
                         "asset": {
+                            "Token": "50000055"
+                        },
+                        "name": "TestTestTest",
+                        "symbol": "IGNORE",
+                        "decimals": 12,
+                        "currencyID": "50000055"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000056"
+                        },
+                        "name": "Clownshow",
+                        "symbol": "CLOWNS",
+                        "decimals": 12,
+                        "currencyID": "50000056"
+                    },
+                    {
+                        "asset": {
                             "Token": "51"
                         },
                         "name": "JAMA",
@@ -2872,10 +2890,13 @@
                         "asset": {
                             "Token": "555"
                         },
-                        "name": "GAME",
+                        "name": "GameDAO",
                         "symbol": "GAME",
                         "decimals": 10,
-                        "currencyID": "555"
+                        "currencyID": "555",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]",
+                        "inferred": true,
+                        "confidence": 0
                     },
                     {
                         "asset": {
@@ -4440,7 +4461,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2006,
                 "id": "astar",
-                "assetCnt": "51",
+                "assetCnt": "52",
                 "data": [
                     {
                         "asset": {
@@ -4862,6 +4883,16 @@
                         "decimals": 18,
                         "currencyID": "18446744073709551640",
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2030},{\"generalKey\":\"0x0904\"}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "18446744073709551641"
+                        },
+                        "name": "GAME",
+                        "symbol": "GAME",
+                        "decimals": 10,
+                        "currencyID": "18446744073709551641",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]"
                     },
                     {
                         "asset": {
@@ -7250,7 +7281,9 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -15514,7 +15547,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2006,
                 "id": "astar",
-                "xcAssetCnt": "28",
+                "xcAssetCnt": "29",
                 "data": [
                     {
                         "paraID": 0,
@@ -15539,6 +15572,51 @@
                         },
                         "asset": "340282366920938463463374607431768211455",
                         "contractAddress": "0xffffffffffffffffffffffffffffffffffffffff",
+                        "source": [
+                            "2006"
+                        ]
+                    },
+                    {
+                        "paraID": 1000,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "asset-hub-polkadot",
+                        "symbol": "GAME",
+                        "decimals": 10,
+                        "interiorType": "x3",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 1000
+                            },
+                            {
+                                "palletInstance": 50
+                            },
+                            {
+                                "generalIndex": 555
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x3": [
+                                        {
+                                            "parachain": 1000
+                                        },
+                                        {
+                                            "palletInstance": 50
+                                        },
+                                        {
+                                            "generalIndex": 555
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "18446744073709551641",
+                        "contractAddress": "0xffffffff00000000000000010000000000000019",
                         "source": [
                             "2006"
                         ]
@@ -32274,7 +32352,7 @@
         },
         {
             "relayChain": "polkadot",
-            "registryCnt": "106",
+            "registryCnt": "107",
             "data": {
                 "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\"}}]": {
                     "paraID": 0,
@@ -33206,6 +33284,56 @@
                     "confidence": 1,
                     "source": [
                         2004
+                    ]
+                },
+                "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]": {
+                    "paraID": 1000,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "asset-hub-polkadot",
+                    "symbol": "GAME",
+                    "decimals": 10,
+                    "interiorType": "x3",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 1000
+                        },
+                        {
+                            "palletInstance": 50
+                        },
+                        {
+                            "generalIndex": 555
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x3": [
+                                    {
+                                        "parachain": 1000
+                                    },
+                                    {
+                                        "palletInstance": 50
+                                    },
+                                    {
+                                        "generalIndex": 555
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {
+                        "2006": "0xffffffff00000000000000010000000000000019"
+                    },
+                    "xcCurrencyID": {
+                        "2006": "18446744073709551641"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2006
                     ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":31337}]": {
@@ -37265,15 +37393,14 @@
                             }
                         }
                     },
-                    "asset": "1",
-                    "source": [
-                        2043
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2043
+                    ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,

@@ -931,6 +931,56 @@
             2004
         ]
     },
+    "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":555}]": {
+        "paraID": 1000,
+        "relayChain": "polkadot",
+        "nativeChainID": "asset-hub-polkadot",
+        "symbol": "GAME",
+        "decimals": 10,
+        "interiorType": "x3",
+        "xcmV1Standardized": [
+            {
+                "network": "polkadot"
+            },
+            {
+                "parachain": 1000
+            },
+            {
+                "palletInstance": 50
+            },
+            {
+                "generalIndex": 555
+            }
+        ],
+        "xcmV1MultiLocation": {
+            "v1": {
+                "parents": 1,
+                "interior": {
+                    "x3": [
+                        {
+                            "parachain": 1000
+                        },
+                        {
+                            "palletInstance": 50
+                        },
+                        {
+                            "generalIndex": 555
+                        }
+                    ]
+                }
+            }
+        },
+        "xcContractAddress": {
+            "2006": "0xffffffff00000000000000010000000000000019"
+        },
+        "xcCurrencyID": {
+            "2006": "18446744073709551641"
+        },
+        "confidence": 1,
+        "source": [
+            2006
+        ]
+    },
     "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":31337}]": {
         "paraID": 1000,
         "relayChain": "polkadot",
@@ -4988,15 +5038,14 @@
                 }
             }
         },
-        "asset": "1",
-        "source": [
-            2043
-        ],
+        "xcContractAddress": {},
         "xcCurrencyID": {
             "2043": "1"
         },
-        "xcContractAddress": {},
-        "confidence": 1
+        "confidence": 1,
+        "source": [
+            2043
+        ]
     },
     "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
         "paraID": 2046,
