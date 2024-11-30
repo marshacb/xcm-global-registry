@@ -2807,6 +2807,15 @@
     },
     {
         "asset": {
+            "Token": "50000059"
+        },
+        "name": "CITIZEN",
+        "symbol": "ZEN",
+        "decimals": 0,
+        "currencyID": "50000059"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
