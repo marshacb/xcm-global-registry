@@ -2816,6 +2816,15 @@
     },
     {
         "asset": {
+            "Token": "50000060"
+        },
+        "name": "LION HACK",
+        "symbol": "LION",
+        "decimals": 12,
+        "currencyID": "50000060"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
