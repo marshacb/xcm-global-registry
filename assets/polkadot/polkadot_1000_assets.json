@@ -2825,6 +2825,60 @@
     },
     {
         "asset": {
+            "Token": "50000061"
+        },
+        "name": "MYMLAN",
+        "symbol": "MYMLAN",
+        "decimals": 12,
+        "currencyID": "50000061"
+    },
+    {
+        "asset": {
+            "Token": "50000062"
+        },
+        "name": "TUSHYCOIN",
+        "symbol": "TSHY",
+        "decimals": 12,
+        "currencyID": "50000062"
+    },
+    {
+        "asset": {
+            "Token": "50000063"
+        },
+        "name": "BestMemeCoin",
+        "symbol": "BMC",
+        "decimals": 12,
+        "currencyID": "50000063"
+    },
+    {
+        "asset": {
+            "Token": "50000064"
+        },
+        "name": "Uno Coin",
+        "symbol": "UNO",
+        "decimals": 12,
+        "currencyID": "50000064"
+    },
+    {
+        "asset": {
+            "Token": "50000065"
+        },
+        "name": "COMMA",
+        "symbol": "COM",
+        "decimals": 12,
+        "currencyID": "50000065"
+    },
+    {
+        "asset": {
+            "Token": "50000066"
+        },
+        "name": "Henry Alexander Coin",
+        "symbol": "THAT",
+        "decimals": 12,
+        "currencyID": "50000066"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
