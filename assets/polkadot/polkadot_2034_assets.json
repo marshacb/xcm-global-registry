@@ -101,6 +101,16 @@
     },
     {
         "asset": {
+            "Token": "1000198"
+        },
+        "name": "Stellar Lumen",
+        "symbol": "XLM.s",
+        "decimals": 12,
+        "currencyID": "1000198",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2}]"
+    },
+    {
+        "asset": {
             "Token": "1000624"
         },
         "name": "AAVE",
@@ -128,6 +138,26 @@
         "decimals": 18,
         "currencyID": "1000626",
         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xa3931d71877c0e7a3148cb7eb4463524fec27fbd\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1000745"
+        },
+        "name": "sUSDS (Moonbeam Wormhole)",
+        "symbol": "sUSDS",
+        "decimals": 18,
+        "currencyID": "1000745",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0xda430218862d3db25de9f61458645dde49a9e9c1\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1000746"
+        },
+        "name": "Stellar Circle EURC",
+        "symbol": "EURC.s",
+        "decimals": 12,
+        "currencyID": "1000746",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136\"}]"
     },
     {
         "asset": {
