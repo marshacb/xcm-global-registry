@@ -2879,6 +2879,15 @@
     },
     {
         "asset": {
+            "Token": "50000067"
+        },
+        "name": "Bearableguy123",
+        "symbol": "MrBear",
+        "decimals": 12,
+        "currencyID": "50000067"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",

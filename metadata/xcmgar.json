@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "399",
+                "assetCnt": "400",
                 "data": [
                     {
                         "asset": {
@@ -2903,6 +2903,15 @@
                         "symbol": "THAT",
                         "decimals": 12,
                         "currencyID": "50000066"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000067"
+                        },
+                        "name": "Bearableguy123",
+                        "symbol": "MrBear",
+                        "decimals": 12,
+                        "currencyID": "50000067"
                     },
                     {
                         "asset": {
@@ -7401,9 +7410,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -12803,9 +12810,7 @@
                         "name": "TUR",
                         "symbol": "TUR",
                         "decimals": 10,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]"
                     }
                 ]
             },
@@ -32402,14 +32407,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "6",
+                    "source": [
+                        2114
+                    ],
                     "xcCurrencyID": {
                         "2114": "6"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2114
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2087}]": {
                     "paraID": 2087,
@@ -37718,14 +37724,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "1",
+                    "source": [
+                        2043
+                    ],
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2043
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,
