@@ -2888,6 +2888,15 @@
     },
     {
         "asset": {
+            "Token": "50000068"
+        },
+        "name": "Web3 Decentralized",
+        "symbol": "W3D",
+        "decimals": 12,
+        "currencyID": "50000068"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
