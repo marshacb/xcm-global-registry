@@ -161,6 +161,26 @@
     },
     {
         "asset": {
+            "Token": "1000752"
+        },
+        "name": "Solana (Moonbeam Wormhole)",
+        "symbol": "SOL",
+        "decimals": 9,
+        "currencyID": "1000752",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1000753"
+        },
+        "name": "SUI (Moonbeam Wormhole)",
+        "symbol": "SUI",
+        "decimals": 9,
+        "currencyID": "1000753",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x484ecce6775143d3335ed2c7bcb22151c53b9f49\"}}]"
+    },
+    {
+        "asset": {
             "Token": "1001"
         },
         "name": "aDOT",

@@ -6649,7 +6649,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2034,
                 "id": "hydra",
-                "assetCnt": "54",
+                "assetCnt": "56",
                 "data": [
                     {
                         "asset": {
@@ -6810,6 +6810,26 @@
                         "decimals": 12,
                         "currencyID": "1000746",
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2094},{\"palletInstance\":53},{\"generalIndex\":2},{\"generalKey\":\"0x45555243\"},{\"generalKey\":\"0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136\"}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1000752"
+                        },
+                        "name": "Solana (Moonbeam Wormhole)",
+                        "symbol": "SOL",
+                        "decimals": 9,
+                        "currencyID": "1000752",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d\"}}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "1000753"
+                        },
+                        "name": "SUI (Moonbeam Wormhole)",
+                        "symbol": "SUI",
+                        "decimals": 9,
+                        "currencyID": "1000753",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x484ecce6775143d3335ed2c7bcb22151c53b9f49\"}}]"
                     },
                     {
                         "asset": {
@@ -7428,9 +7448,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -19791,7 +19809,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2034,
                 "id": "hydra",
-                "xcAssetCnt": "48",
+                "xcAssetCnt": "50",
                 "data": [
                     {
                         "paraID": 0,
@@ -20719,6 +20737,56 @@
                         "paraID": 2004,
                         "relayChain": "polkadot",
                         "nativeChainID": "moonbeam",
+                        "symbol": "SUI",
+                        "decimals": 9,
+                        "interiorType": "x3",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2004
+                            },
+                            {
+                                "palletInstance": 110
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0x484ecce6775143d3335ed2c7bcb22151c53b9f49"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x3": [
+                                        {
+                                            "parachain": 2004
+                                        },
+                                        {
+                                            "palletInstance": 110
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0x484ecce6775143d3335ed2c7bcb22151c53b9f49"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1000753",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2004,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "moonbeam",
                         "symbol": "DAI",
                         "decimals": 18,
                         "interiorType": "x3",
@@ -20811,6 +20879,56 @@
                             }
                         },
                         "asset": "23",
+                        "source": [
+                            "2034"
+                        ]
+                    },
+                    {
+                        "paraID": 2004,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "moonbeam",
+                        "symbol": "SOL",
+                        "decimals": 9,
+                        "interiorType": "x3",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2004
+                            },
+                            {
+                                "palletInstance": 110
+                            },
+                            {
+                                "accountKey20": {
+                                    "network": null,
+                                    "key": "0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d"
+                                }
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x3": [
+                                        {
+                                            "parachain": 2004
+                                        },
+                                        {
+                                            "palletInstance": 110
+                                        },
+                                        {
+                                            "accountKey20": {
+                                                "network": null,
+                                                "key": "0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "1000752",
                         "source": [
                             "2034"
                         ]
@@ -32650,7 +32768,7 @@
         },
         {
             "relayChain": "polkadot",
-            "registryCnt": "109",
+            "registryCnt": "111",
             "data": {
                 "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\"}}]": {
                     "paraID": 0,
@@ -34660,6 +34778,60 @@
                         2034
                     ]
                 },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x484ecce6775143d3335ed2c7bcb22151c53b9f49\"}}]": {
+                    "paraID": 2004,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "moonbeam",
+                    "symbol": "SUI",
+                    "decimals": 9,
+                    "interiorType": "x3",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2004
+                        },
+                        {
+                            "palletInstance": 110
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x484ecce6775143d3335ed2c7bcb22151c53b9f49"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x3": [
+                                    {
+                                        "parachain": 2004
+                                    },
+                                    {
+                                        "palletInstance": 110
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0x484ecce6775143d3335ed2c7bcb22151c53b9f49"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1000753"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0xc30e9ca94cf52f3bf5692aacf81353a27052c46f\"}}]": {
                     "paraID": 2004,
                     "relayChain": "polkadot",
@@ -34708,6 +34880,60 @@
                     "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2034": "23"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2034
+                    ]
+                },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2004},{\"palletInstance\":110},{\"accountKey20\":{\"network\":null,\"key\":\"0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d\"}}]": {
+                    "paraID": 2004,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "moonbeam",
+                    "symbol": "SOL",
+                    "decimals": 9,
+                    "interiorType": "x3",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2004
+                        },
+                        {
+                            "palletInstance": 110
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d"
+                            }
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x3": [
+                                    {
+                                        "parachain": 2004
+                                    },
+                                    {
+                                        "palletInstance": 110
+                                    },
+                                    {
+                                        "accountKey20": {
+                                            "network": null,
+                                            "key": "0x99fec54a5ad36d50a4bba3a41cab983a5bb86a7d"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {},
+                    "xcCurrencyID": {
+                        "2034": "1000752"
                     },
                     "confidence": 1,
                     "source": [
@@ -37745,14 +37971,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "1",
+                    "source": [
+                        2043
+                    ],
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2043
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,
