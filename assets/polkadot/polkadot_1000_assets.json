@@ -2897,6 +2897,15 @@
     },
     {
         "asset": {
+            "Token": "50000069"
+        },
+        "name": "LOTY",
+        "symbol": "LOTY",
+        "decimals": 12,
+        "currencyID": "50000069"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
