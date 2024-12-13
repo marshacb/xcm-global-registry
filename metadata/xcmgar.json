@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "402",
+                "assetCnt": "403",
                 "data": [
                     {
                         "asset": {
@@ -2933,6 +2933,15 @@
                     },
                     {
                         "asset": {
+                            "Token": "50000070"
+                        },
+                        "name": "GodIsAwayOnBusiness",
+                        "symbol": "GAOB",
+                        "decimals": 12,
+                        "currencyID": "50000070"
+                    },
+                    {
+                        "asset": {
                             "Token": "51"
                         },
                         "name": "JAMA",
@@ -3677,7 +3686,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2000,
                 "id": "acala",
-                "assetCnt": "41",
+                "assetCnt": "42",
                 "data": [
                     {
                         "asset": {
@@ -3822,6 +3831,15 @@
                         "symbol": "APE",
                         "decimals": 18,
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02f4c723e61709d90f89939c1852f516e373d418a8\"}]"
+                    },
+                    {
+                        "asset": {
+                            "Erc20": "0xfa904c86b73fd041d6cc2aeed9e6ec0148fd51da"
+                        },
+                        "name": "Nemo",
+                        "symbol": "Nemo",
+                        "decimals": 18,
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02fa904c86b73fd041d6cc2aeed9e6ec0148fd51da\"}]"
                     },
                     {
                         "asset": {
@@ -7448,7 +7466,9 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },
@@ -37971,15 +37991,14 @@
                             }
                         }
                     },
-                    "asset": "1",
-                    "source": [
-                        2043
-                    ],
+                    "xcContractAddress": {},
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "xcContractAddress": {},
-                    "confidence": 1
+                    "confidence": 1,
+                    "source": [
+                        2043
+                    ]
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,

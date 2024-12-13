@@ -2906,6 +2906,15 @@
     },
     {
         "asset": {
+            "Token": "50000070"
+        },
+        "name": "GodIsAwayOnBusiness",
+        "symbol": "GAOB",
+        "decimals": 12,
+        "currencyID": "50000070"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",

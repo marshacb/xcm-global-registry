@@ -145,6 +145,15 @@
     },
     {
         "asset": {
+            "Erc20": "0xfa904c86b73fd041d6cc2aeed9e6ec0148fd51da"
+        },
+        "name": "Nemo",
+        "symbol": "Nemo",
+        "decimals": 18,
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2000},{\"generalKey\":\"0x02fa904c86b73fd041d6cc2aeed9e6ec0148fd51da\"}]"
+    },
+    {
+        "asset": {
             "ForeignAsset": "0"
         },
         "name": "Moonbeam",
