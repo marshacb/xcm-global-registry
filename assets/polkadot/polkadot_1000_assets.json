@@ -2915,6 +2915,15 @@
     },
     {
         "asset": {
+            "Token": "50000071"
+        },
+        "name": "ETL",
+        "symbol": "ETL",
+        "decimals": 0,
+        "currencyID": "50000071"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
