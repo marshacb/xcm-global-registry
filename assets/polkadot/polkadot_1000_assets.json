@@ -2924,6 +2924,15 @@
     },
     {
         "asset": {
+            "Token": "50000072"
+        },
+        "name": "Test Token",
+        "symbol": "TST",
+        "decimals": 3,
+        "currencyID": "50000072"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
