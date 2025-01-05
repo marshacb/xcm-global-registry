@@ -2933,6 +2933,15 @@
     },
     {
         "asset": {
+            "Token": "50000073"
+        },
+        "name": "VDOT",
+        "symbol": "VDOT",
+        "decimals": 10,
+        "currencyID": "50000073"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
