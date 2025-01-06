@@ -211,15 +211,6 @@
     },
     {
         "asset": {
-            "Token": "1230"
-        },
-        "name": "HAM",
-        "symbol": "HAM",
-        "decimals": 10,
-        "currencyID": "1230"
-    },
-    {
-        "asset": {
             "Token": "1234"
         },
         "name": "BUNS",
@@ -2939,6 +2930,15 @@
         "symbol": "VDOT",
         "decimals": 10,
         "currencyID": "50000073"
+    },
+    {
+        "asset": {
+            "Token": "50000074"
+        },
+        "name": "VDOT",
+        "symbol": "VDOT",
+        "decimals": 12,
+        "currencyID": "50000074"
     },
     {
         "asset": {
