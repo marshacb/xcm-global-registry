@@ -24,7 +24,7 @@
                 "relayChain": "polkadot",
                 "paraID": 1000,
                 "id": "asset-hub-polkadot",
-                "assetCnt": "406",
+                "assetCnt": "407",
                 "data": [
                     {
                         "asset": {
@@ -2966,6 +2966,15 @@
                         "symbol": "VDOT",
                         "decimals": 12,
                         "currencyID": "50000074"
+                    },
+                    {
+                        "asset": {
+                            "Token": "50000075"
+                        },
+                        "name": "Billcoin - Polkadot",
+                        "symbol": "BILL",
+                        "decimals": 12,
+                        "currencyID": "50000075"
                     },
                     {
                         "asset": {
@@ -11577,7 +11586,9 @@
                         "name": "XRT",
                         "symbol": "XRT",
                         "decimals": 9,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2048}]"
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2048}]",
+                        "inferred": true,
+                        "confidence": 0
                     }
                 ]
             },

@@ -2942,6 +2942,15 @@
     },
     {
         "asset": {
+            "Token": "50000075"
+        },
+        "name": "Billcoin - Polkadot",
+        "symbol": "BILL",
+        "decimals": 12,
+        "currencyID": "50000075"
+    },
+    {
+        "asset": {
             "Token": "51"
         },
         "name": "JAMA",
