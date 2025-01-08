@@ -4145,7 +4145,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2004,
                 "id": "moonbeam",
-                "assetCnt": "48",
+                "assetCnt": "49",
                 "data": [
                     {
                         "asset": {
@@ -4566,6 +4566,16 @@
                         "decimals": 10,
                         "currencyID": "64174511183114006009298114091987195453",
                         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":23}]"
+                    },
+                    {
+                        "asset": {
+                            "Token": "66249247788835743307843320271452141931"
+                        },
+                        "name": "Bifrost Voucher BNC",
+                        "symbol": "xcvBNC",
+                        "decimals": 12,
+                        "currencyID": "66249247788835743307843320271452141931",
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2030},{\"generalKey\":\"0x0101\"}]"
                     },
                     {
                         "asset": {
@@ -7498,9 +7508,7 @@
                         "name": "NEURO",
                         "symbol": "NEURO",
                         "decimals": 12,
-                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2043},{\"palletInstance\":10}]"
                     }
                 ]
             },
@@ -12900,9 +12908,7 @@
                         "name": "TUR",
                         "symbol": "TUR",
                         "decimals": 10,
-                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]",
-                        "inferred": true,
-                        "confidence": 0
+                        "xcmInteriorKey": "[{\"network\":\"kusama\"},{\"parachain\":2114}]"
                     }
                 ]
             },
@@ -13881,7 +13887,7 @@
                 "relayChain": "polkadot",
                 "paraID": 2004,
                 "id": "moonbeam",
-                "xcAssetCnt": "47",
+                "xcAssetCnt": "48",
                 "data": [
                     {
                         "paraID": 0,
@@ -14985,6 +14991,45 @@
                         },
                         "asset": "144012926827374458669278577633504620722",
                         "contractAddress": "0xffffffff6c57e17d210df507c82807149ffd70b2",
+                        "source": [
+                            "2004"
+                        ]
+                    },
+                    {
+                        "paraID": 2030,
+                        "relayChain": "polkadot",
+                        "nativeChainID": "bifrost",
+                        "symbol": "vBNC",
+                        "decimals": 12,
+                        "interiorType": "x2",
+                        "xcmV1Standardized": [
+                            {
+                                "network": "polkadot"
+                            },
+                            {
+                                "parachain": 2030
+                            },
+                            {
+                                "generalKey": "0x0101"
+                            }
+                        ],
+                        "xcmV1MultiLocation": {
+                            "v1": {
+                                "parents": 1,
+                                "interior": {
+                                    "x2": [
+                                        {
+                                            "parachain": 2030
+                                        },
+                                        {
+                                            "generalKey": "0x0101"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "asset": "66249247788835743307843320271452141931",
+                        "contractAddress": "0xffffffff31d724194b6a76e1d639c8787e16796b",
                         "source": [
                             "2004"
                         ]
@@ -32601,14 +32646,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "6",
+                    "source": [
+                        2114
+                    ],
                     "xcCurrencyID": {
                         "2114": "6"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2114
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"kusama\"},{\"parachain\":2087}]": {
                     "paraID": 2087,
@@ -32825,7 +32871,7 @@
         },
         {
             "relayChain": "polkadot",
-            "registryCnt": "111",
+            "registryCnt": "112",
             "data": {
                 "[{\"network\":\"polkadot\"},{\"globalConsensus\":{\"ethereum\":{\"chainId\":1}}},{\"accountKey20\":{\"network\":null,\"key\":\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\"}}]": {
                     "paraID": 0,
@@ -36045,6 +36091,50 @@
                         2006
                     ]
                 },
+                "[{\"network\":\"polkadot\"},{\"parachain\":2030},{\"generalKey\":\"0x0101\"}]": {
+                    "paraID": 2030,
+                    "relayChain": "polkadot",
+                    "nativeChainID": "bifrost",
+                    "symbol": "vBNC",
+                    "decimals": 12,
+                    "interiorType": "x2",
+                    "xcmV1Standardized": [
+                        {
+                            "network": "polkadot"
+                        },
+                        {
+                            "parachain": 2030
+                        },
+                        {
+                            "generalKey": "0x0101"
+                        }
+                    ],
+                    "xcmV1MultiLocation": {
+                        "v1": {
+                            "parents": 1,
+                            "interior": {
+                                "x2": [
+                                    {
+                                        "parachain": 2030
+                                    },
+                                    {
+                                        "generalKey": "0x0101"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "xcContractAddress": {
+                        "2004": "0xffffffff31d724194b6a76e1d639c8787e16796b"
+                    },
+                    "xcCurrencyID": {
+                        "2004": "66249247788835743307843320271452141931"
+                    },
+                    "confidence": 1,
+                    "source": [
+                        2004
+                    ]
+                },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2030},{\"generalKey\":\"0x0900\"}]": {
                     "paraID": 2030,
                     "relayChain": "polkadot",
@@ -38045,14 +38135,15 @@
                             }
                         }
                     },
-                    "xcContractAddress": {},
+                    "asset": "1",
+                    "source": [
+                        2043
+                    ],
                     "xcCurrencyID": {
                         "2043": "1"
                     },
-                    "confidence": 1,
-                    "source": [
-                        2043
-                    ]
+                    "xcContractAddress": {},
+                    "confidence": 1
                 },
                 "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
                     "paraID": 2046,

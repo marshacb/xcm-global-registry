@@ -421,6 +421,16 @@
     },
     {
         "asset": {
+            "Token": "66249247788835743307843320271452141931"
+        },
+        "name": "Bifrost Voucher BNC",
+        "symbol": "xcvBNC",
+        "decimals": 12,
+        "currencyID": "66249247788835743307843320271452141931",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2030},{\"generalKey\":\"0x0101\"}]"
+    },
+    {
+        "asset": {
             "Token": "69606720909260275826784788104880799692"
         },
         "name": "HydraDX",
