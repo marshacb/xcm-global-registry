@@ -7,7 +7,9 @@
         "symbol": "HDX",
         "decimals": 12,
         "currencyID": "0",
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"generalIndex\":0}]"
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"generalIndex\":0}]",
+        "inferred": true,
+        "confidence": 0
     },
     {
         "asset": {
@@ -216,6 +218,16 @@
         "decimals": 8,
         "currencyID": "1004",
         "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x02759d14d0d4f452b9c76f5a230750e8857d36f2\"}}]"
+    },
+    {
+        "asset": {
+            "Token": "1005"
+        },
+        "name": "avDOT",
+        "symbol": "avDOT",
+        "decimals": 10,
+        "currencyID": "1005",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"accountKey20\":{\"network\":null,\"key\":\"0x0e13b904f4168f93814216b6874ca8349457f263\"}}]"
     },
     {
         "asset": {
@@ -552,6 +564,8 @@
         "name": "HDX",
         "symbol": "HDX",
         "decimals": 12,
-        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"generalIndex\":0}]"
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":2034},{\"generalIndex\":0}]",
+        "inferred": true,
+        "confidence": 0
     }
 ]

@@ -1583,6 +1583,50 @@
         "paraID": 2034,
         "relayChain": "polkadot",
         "nativeChainID": "hydra",
+        "symbol": "avDOT",
+        "decimals": 10,
+        "interiorType": "x2",
+        "xcmV1Standardized": [
+            {
+                "network": "polkadot"
+            },
+            {
+                "parachain": 2034
+            },
+            {
+                "accountKey20": {
+                    "network": null,
+                    "key": "0x0e13b904f4168f93814216b6874ca8349457f263"
+                }
+            }
+        ],
+        "xcmV1MultiLocation": {
+            "v1": {
+                "parents": 1,
+                "interior": {
+                    "x2": [
+                        {
+                            "parachain": 2034
+                        },
+                        {
+                            "accountKey20": {
+                                "network": null,
+                                "key": "0x0e13b904f4168f93814216b6874ca8349457f263"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "asset": "1005",
+        "source": [
+            "2034"
+        ]
+    },
+    {
+        "paraID": 2034,
+        "relayChain": "polkadot",
+        "nativeChainID": "hydra",
         "symbol": "aWBTC",
         "decimals": 8,
         "interiorType": "x2",
