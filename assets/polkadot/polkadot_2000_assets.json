@@ -244,6 +244,24 @@
     },
     {
         "asset": {
+            "ForeignAsset": "18"
+        },
+        "name": "AIWeb3",
+        "symbol": "LOVA",
+        "decimals": 12,
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"parachain\":50000028}]"
+    },
+    {
+        "asset": {
+            "ForeignAsset": "19"
+        },
+        "name": "DAMN",
+        "symbol": "DAMN",
+        "decimals": 10,
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":22222012}]"
+    },
+    {
+        "asset": {
             "ForeignAsset": "2"
         },
         "name": "Astar Native Token",

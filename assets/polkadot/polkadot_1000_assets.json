@@ -1108,7 +1108,10 @@
         "name": "DamnCoin",
         "symbol": "DAMN",
         "decimals": 12,
-        "currencyID": "22222012"
+        "currencyID": "22222012",
+        "xcmInteriorKey": "[{\"network\":\"polkadot\"},{\"parachain\":1000},{\"palletInstance\":50},{\"generalIndex\":22222012}]",
+        "inferred": true,
+        "confidence": 0
     },
     {
         "asset": {
