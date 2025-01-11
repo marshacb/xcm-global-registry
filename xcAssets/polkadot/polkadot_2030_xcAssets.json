@@ -97,7 +97,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {

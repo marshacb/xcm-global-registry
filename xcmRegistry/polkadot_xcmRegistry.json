@@ -26,7 +26,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -90,7 +90,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -148,7 +148,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -263,7 +263,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -319,7 +319,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -375,7 +375,7 @@
         ],
         "xcmV1MultiLocation": {
             "v1": {
-                "parents": 1,
+                "parents": 2,
                 "interior": {
                     "x2": [
                         {
@@ -5342,15 +5342,14 @@
                 }
             }
         },
-        "asset": "1",
-        "source": [
-            2043
-        ],
+        "xcContractAddress": {},
         "xcCurrencyID": {
             "2043": "1"
         },
-        "xcContractAddress": {},
-        "confidence": 1
+        "confidence": 1,
+        "source": [
+            2043
+        ]
     },
     "[{\"network\":\"polkadot\"},{\"parachain\":2046},{\"palletInstance\":5}]": {
         "paraID": 2046,

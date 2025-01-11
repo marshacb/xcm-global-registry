@@ -339,11 +339,19 @@ module.exports = class ChainParser {
                 let xcmV1MultiLocationByte = (xcmV1MultiLocation) ? xcmgarTool.convertXcmV1MultiLocationToByte(xcmV1MultiLocation, api) : null
                 let nativeAssetChainkey = xcmgarTool.makeAssetChain(nativeAsset, chainkey);
 
+                // Updates Polkdaot global consensus asset locations to have the correct parents value of 2 
+                const nativeChainID = this.getChainId(relayChain, paraID);
+                if (
+                    JSON.stringify(xcmV1MultiLocation).includes('globalConsensus')
+                    && nativeChainID === 'polkadot'
+                ) {
+                    xcmV1MultiLocation.v1.parents = 2;
+                }
                 let xcmAssetInfo = {
                     //interior: interiorVStr, //interior
                     paraID: paraID,
                     relayChain: relayChain,
-                    nativeChainID: this.getChainId(relayChain, paraID),
+                    nativeChainID,
                     symbol: nativeSymbol,
                     decimals: decimals,
                     interiorType: standardizedInteriorK,
@@ -473,11 +481,19 @@ module.exports = class ChainParser {
                 let xcmV1MultiLocationByte = (xcmV1MultiLocation) ? xcmgarTool.convertXcmV1MultiLocationToByte(xcmV1MultiLocation, api) : null
                 let nativeAssetChainkey = xcmgarTool.makeAssetChain(nativeAsset, chainkey);
 
+                // Updates Polkdaot global consensus asset locations to have the correct parents value of 2 
+                const nativeChainID = this.getChainId(relayChain, paraID);
+                if (
+                    JSON.stringify(xcmV1MultiLocation).includes('globalConsensus')
+                    && nativeChainID === 'polkadot'
+                ) {
+                    xcmV1MultiLocation.v1.parents = 2;
+                }
                 let xcmAssetInfo = {
                     //interior: interiorVStr, //interior
                     paraID: paraID,
                     relayChain: relayChain,
-                    nativeChainID: this.getChainId(relayChain, paraID),
+                    nativeChainID,
                     symbol: nativeSymbol,
                     decimals: decimals,
                     interiorType: standardizedInteriorK,
@@ -658,11 +674,19 @@ module.exports = class ChainParser {
                     let nativechainKey = `${relayChain}-${paraID}`
                     let nativeAssetChainkey = xcmgarTool.makeAssetChain(nativeAsset, nativechainKey);
 
+                    // Updates Polkdaot global consensus asset locations to have the correct parents value of 2 
+                    const nativeChainID = this.getChainId(relayChain, paraID);
+                    if (
+                        JSON.stringify(xcmV1MultiLocation).includes('globalConsensus')
+                        && nativeChainID === 'polkadot'
+                    ) {
+                        xcmV1MultiLocation.v1.parents = 2;
+                    }
                     let xcmAssetInfo = {
                         //interior: interiorVStr, //interior
                         paraID: paraID,
                         relayChain: relayChain,
-                        nativeChainID: this.getChainId(relayChain, paraID),
+                        nativeChainID,
                         symbol: nativeSymbol,
                         decimals: decimals,
                         interiorType: standardizedInteriorK,
@@ -784,11 +808,20 @@ module.exports = class ChainParser {
                 //console.log(`${chainID} '${interiorVStr}' ${nativeAsset} [${paraID}] | [${symbol}] [${interiorK}]`)
                 //if (this.debugLevel >= xcmgarTool.debugInfo) console.log(`addXcmAssetInfo [${asset}]`, assetInfo)
                 let nativeAssetChainkey = xcmgarTool.makeAssetChain(nativeAsset, chainkey);
+
+                // Updates Polkdaot global consensus asset locations to have the correct parents value of 2 
+                const nativeChainID = this.getChainId(relayChain, paraID);
+                if (
+                    JSON.stringify(xcmV1MultiLocation).includes('globalConsensus')
+                    && nativeChainID === 'polkadot'
+                ) {
+                    xcmV1MultiLocation.v1.parents = 2;
+                }
                 let xcmAssetInfo = {
                     //interior: interiorVStr, //interior
                     paraID: paraID,
                     relayChain: relayChain,
-                    nativeChainID: this.getChainId(relayChain, paraID),
+                    nativeChainID,
                     symbol: nativeSymbol,
                     decimals: decimals,
                     interiorType: standardizedInteriorK,
